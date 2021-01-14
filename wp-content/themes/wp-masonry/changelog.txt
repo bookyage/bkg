@@ -1,0 +1,13 @@
+= Version 1.0.0 =
+* Initial Release
+
+= Version 1.0.1 =
+* Fixed coding issues.
+* Improved coding.
+* Improved accessibility.
+
+= Version 1.0.2 =
+* Screenshot updated.
+
+= Version 1.0.3 =
+* Fixed a coding issue.
