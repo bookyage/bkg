@@ -17,16 +17,16 @@
 <link rel="pingback" href="https://bookyage.com/xmlrpc.php">
 
 	<!-- This site is optimized with the Yoast SEO plugin v15.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>您正搜索 Marketing - 第5页 共363页 - Bookyage</title>
+	<title>您正搜索 Marketing - 第5页 共370页 - Bookyage</title>
 	<meta name="robots" content="noindex, follow" />
 	<meta property="og:locale" content="zh_CN" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="您正搜索 Marketing - 第5页 共363页 - Bookyage" />
+	<meta property="og:title" content="您正搜索 Marketing - 第5页 共370页 - Bookyage" />
 	<meta property="og:url" content="https://bookyage.com/search/Marketing/" />
 	<meta property="og:site_name" content="Bookyage" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="您正搜索 Marketing - 第5页 共363页 - Bookyage" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://bookyage.com/#/schema/person/340b5031724c147ebeb5e4b305af490f","name":"bookyage","image":{"@type":"ImageObject","@id":"https://bookyage.com/#personlogo","inLanguage":"zh-CN","url":"https://i.sevencdn.com/bookyage.com/wp-content/uploads/2018/12/book-1.png","width":428,"height":428,"caption":"bookyage"},"logo":{"@id":"https://bookyage.com/#personlogo"}},{"@type":"WebSite","@id":"https://bookyage.com/#website","url":"https://bookyage.com/","name":"Bookyage","description":"60000+\u672c\u9ad8\u6e05\u82f1\u6587\u539f\u7248PDF\u7535\u5b50\u4e66\u514d\u8d39\u83b7\u53d6","publisher":{"@id":"https://bookyage.com/#/schema/person/340b5031724c147ebeb5e4b305af490f"},"potentialAction":[{"@type":"SearchAction","target":"https://bookyage.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"zh-CN"},{"@type":["CollectionPage","SearchResultsPage"],"@id":"#webpage","url":"","name":"\u60a8\u6b63\u641c\u7d22 Marketing - \u7b2c5\u9875 \u5171363\u9875 - Bookyage","isPartOf":{"@id":"https://bookyage.com/#website"},"inLanguage":"zh-CN","potentialAction":[{"@type":"ReadAction","target":[""]}]}]}</script>
+	<meta name="twitter:title" content="您正搜索 Marketing - 第5页 共370页 - Bookyage" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://bookyage.com/#/schema/person/340b5031724c147ebeb5e4b305af490f","name":"bookyage","image":{"@type":"ImageObject","@id":"https://bookyage.com/#personlogo","inLanguage":"zh-CN","url":"https://i.sevencdn.com/bookyage.com/wp-content/uploads/2018/12/book-1.png","width":428,"height":428,"caption":"bookyage"},"logo":{"@id":"https://bookyage.com/#personlogo"}},{"@type":"WebSite","@id":"https://bookyage.com/#website","url":"https://bookyage.com/","name":"Bookyage","description":"60000+\u672c\u9ad8\u6e05\u82f1\u6587\u539f\u7248PDF\u7535\u5b50\u4e66\u514d\u8d39\u83b7\u53d6","publisher":{"@id":"https://bookyage.com/#/schema/person/340b5031724c147ebeb5e4b305af490f"},"potentialAction":[{"@type":"SearchAction","target":"https://bookyage.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"zh-CN"},{"@type":["CollectionPage","SearchResultsPage"],"@id":"#webpage","url":"","name":"\u60a8\u6b63\u641c\u7d22 Marketing - \u7b2c5\u9875 \u5171370\u9875 - Bookyage","isPartOf":{"@id":"https://bookyage.com/#website"},"inLanguage":"zh-CN","potentialAction":[{"@type":"ReadAction","target":[""]}]}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -53,22 +53,22 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://bookyage.com/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' type='text/css' media='all' />
-<link rel='stylesheet' id='siq_icon_css-css'  href='https://bookyage.com/wp-content/plugins/searchiq/assets/3.5/css/frontend/icon-moon.css?ver=1610578390' type='text/css' media='all' />
-<link rel='stylesheet' id='siq_front_css-css'  href='https://bookyage.com/wp-content/plugins/searchiq/assets/3.5/css/frontend/stylesheet.css?ver=1610578390' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-pagenavi-css'  href='https://bookyage.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-masonry-maincss-css'  href='https://bookyage.com/wp-content/themes/wp-masonry/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-css'  href='https://bookyage.com/wp-content/themes/wp-masonry/assets/css/font-awesome.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='siq_icon_css-css'  href='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/plugins/searchiq/assets/3.5/css/frontend/icon-moon.css?ver=1611024977' type='text/css' media='all' />
+<link rel='stylesheet' id='siq_front_css-css'  href='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/plugins/searchiq/assets/3.5/css/frontend/stylesheet.css?ver=1611024977' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-masonry-maincss-css'  href='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/assets/css/font-awesome.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-masonry-webfont-css'  href='//fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Domine:400,700|Oswald:400,700|Poppins:400,400i,700,700i' type='text/css' media='all' />
-<script type='text/javascript' src='https://bookyage.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
 <!--[if lt IE 9]>
-<script type='text/javascript' src='https://bookyage.com/wp-content/themes/wp-masonry/assets/js/html5shiv.min.js' id='html5shiv-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/assets/js/html5shiv.min.js' id='html5shiv-js'></script>
 <![endif]-->
 <!--[if lt IE 9]>
-<script type='text/javascript' src='https://bookyage.com/wp-content/themes/wp-masonry/assets/js/respond.min.js' id='respond-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/assets/js/respond.min.js' id='respond-js'></script>
 <![endif]-->
 <link rel="https://api.w.org/" href="https://bookyage.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bookyage.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://bookyage.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 5.5.3" />
                     <script type="text/javascript">
                         (function () {
@@ -82,7 +82,7 @@ img.emoji {
                             document.getElementsByTagName("HEAD")[0].appendChild(script);
                         })();
                     </script><style type="text/css" id="custom-background-css">
-body.custom-background { background-image: url("https://bookyage.com/wp-content/themes/wp-masonry/assets/images/background.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: fixed; }
+body.custom-background { background-image: url("https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/assets/images/background.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: fixed; }
 </style>
 	<link rel="icon" href="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2018/12/cropped-book-1-480x480.png" sizes="32x32" />
 <link rel="icon" href="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2018/12/cropped-book-1-480x480.png" sizes="192x192" />
@@ -221,15 +221,75 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
     <div class="wp-masonry-4-col-gutter"></div>
         
         
-<div id="post-144261" class="wp-masonry-grid-post wp-masonry-4-col">
+<div id="post-94080" class="wp-masonry-grid-post wp-masonry-4-col">
 <div class="wp-masonry-grid-post-inside">
 
             <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/consumer-behavior-building-marketing-strategy-11th-edition/" title="Permanent Link to Consumer Behavior &#8211; Building Marketing Strategy (11th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="637" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/11/54448114ca222e2ff84dacd5fb663dfe-480x637.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/11/54448114ca222e2ff84dacd5fb663dfe-480x637.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/11/54448114ca222e2ff84dacd5fb663dfe.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+        <a href="https://bookyage.com/marketing-across-cultures-6th-edition/" title="Permanent Link to Marketing Across Cultures (6th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="625" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/05/5ad6396ed59ae02ed83df0bd96150ca0-480x625.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/05/5ad6396ed59ae02ed83df0bd96150ca0-480x625.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/05/5ad6396ed59ae02ed83df0bd96150ca0.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
                         </div>
         
     <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/consumer-behavior-building-marketing-strategy-11th-edition/" rel="bookmark">Consumer Behavior &#8211; Building Marketing Strategy (11th Edition)</a></h3>
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/marketing-across-cultures-6th-edition/" rel="bookmark">Marketing Across Cultures (6th Edition)</a></h3>
+        </div>
+
+</div>
+</div>
+    
+        
+<div id="post-94076" class="wp-masonry-grid-post wp-masonry-4-col">
+<div class="wp-masonry-grid-post-inside">
+
+            <div class="wp-masonry-grid-post-thumbnail">
+        <a href="https://bookyage.com/marketing-strategy-a-decision-focused-approach-7th-edition/" title="Permanent Link to Marketing Strategy &#8211; A Decision-Focused Approach (7th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="619" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/05/550193ad8f68556014118d186a5c8ae8-480x619.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/05/550193ad8f68556014118d186a5c8ae8-480x619.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/05/550193ad8f68556014118d186a5c8ae8.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+                        </div>
+        
+    <div class="wp-masonry-grid-post-details">
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/marketing-strategy-a-decision-focused-approach-7th-edition/" rel="bookmark">Marketing Strategy &#8211; A Decision-Focused Approach (7th Edition)</a></h3>
+        </div>
+
+</div>
+</div>
+    
+        
+<div id="post-116394" class="wp-masonry-grid-post wp-masonry-4-col">
+<div class="wp-masonry-grid-post-inside">
+
+            <div class="wp-masonry-grid-post-thumbnail">
+        <a href="https://bookyage.com/marketing-the-core-5th-canadian-edition/" title="Permanent Link to Marketing &#8211; The Core (5th Canadian Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="623" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/09/591103168ed4ec1c8d05db87dc1c76cc-480x623.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/09/591103168ed4ec1c8d05db87dc1c76cc-480x623.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/09/591103168ed4ec1c8d05db87dc1c76cc.jpg 686w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+                        </div>
+        
+    <div class="wp-masonry-grid-post-details">
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/marketing-the-core-5th-canadian-edition/" rel="bookmark">Marketing &#8211; The Core (5th Canadian Edition)</a></h3>
+        </div>
+
+</div>
+</div>
+    
+        
+<div id="post-116946" class="wp-masonry-grid-post wp-masonry-4-col">
+<div class="wp-masonry-grid-post-inside">
+
+            <div class="wp-masonry-grid-post-thumbnail">
+        <a href="https://bookyage.com/contemporary-marketing-kurtz-14th-edition/" title="Permanent Link to Contemporary Marketing (Kurtz, 14th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="582" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/09/e12f727ae987e9f0f63a40ad2fbd76db-480x582.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/09/e12f727ae987e9f0f63a40ad2fbd76db-480x582.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/09/e12f727ae987e9f0f63a40ad2fbd76db.jpg 525w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+                        </div>
+        
+    <div class="wp-masonry-grid-post-details">
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/contemporary-marketing-kurtz-14th-edition/" rel="bookmark">Contemporary Marketing (Kurtz, 14th Edition)</a></h3>
+        </div>
+
+</div>
+</div>
+    
+        
+<div id="post-125916" class="wp-masonry-grid-post wp-masonry-4-col">
+<div class="wp-masonry-grid-post-inside">
+
+            <div class="wp-masonry-grid-post-thumbnail">
+        <a href="https://bookyage.com/foundations-of-marketing-pride-3rd-edition/" title="Permanent Link to Foundations of Marketing (Pride, 3rd Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="594" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/10/8a84add30814f5e9e819e07eed1865be-480x594.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/10/8a84add30814f5e9e819e07eed1865be-480x594.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/10/8a84add30814f5e9e819e07eed1865be.jpg 525w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+                        </div>
+        
+    <div class="wp-masonry-grid-post-details">
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/foundations-of-marketing-pride-3rd-edition/" rel="bookmark">Foundations of Marketing (Pride, 3rd Edition)</a></h3>
         </div>
 
 </div>
@@ -266,30 +326,15 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
 </div>
     
         
-<div id="post-125916" class="wp-masonry-grid-post wp-masonry-4-col">
+<div id="post-144261" class="wp-masonry-grid-post wp-masonry-4-col">
 <div class="wp-masonry-grid-post-inside">
 
             <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/foundations-of-marketing-pride-3rd-edition/" title="Permanent Link to Foundations of Marketing (Pride, 3rd Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="594" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/10/8a84add30814f5e9e819e07eed1865be-480x594.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/10/8a84add30814f5e9e819e07eed1865be-480x594.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/10/8a84add30814f5e9e819e07eed1865be.jpg 525w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+        <a href="https://bookyage.com/consumer-behavior-building-marketing-strategy-11th-edition/" title="Permanent Link to Consumer Behavior &#8211; Building Marketing Strategy (11th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="637" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/11/54448114ca222e2ff84dacd5fb663dfe-480x637.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/11/54448114ca222e2ff84dacd5fb663dfe-480x637.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/11/54448114ca222e2ff84dacd5fb663dfe.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
                         </div>
         
     <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/foundations-of-marketing-pride-3rd-edition/" rel="bookmark">Foundations of Marketing (Pride, 3rd Edition)</a></h3>
-        </div>
-
-</div>
-</div>
-    
-        
-<div id="post-156570" class="wp-masonry-grid-post wp-masonry-4-col">
-<div class="wp-masonry-grid-post-inside">
-
-            <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/marketing-planning-strategy-environment-and-context/" title="Permanent Link to Marketing Planning &#8211; Strategy, Environment and Context" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="652" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/12/e0d7f32d1a257fc6b7344b7fb2a7aeaf-480x652.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/12/e0d7f32d1a257fc6b7344b7fb2a7aeaf-480x652.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/12/e0d7f32d1a257fc6b7344b7fb2a7aeaf.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
-                        </div>
-        
-    <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/marketing-planning-strategy-environment-and-context/" rel="bookmark">Marketing Planning &#8211; Strategy, Environment and Context</a></h3>
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/consumer-behavior-building-marketing-strategy-11th-edition/" rel="bookmark">Consumer Behavior &#8211; Building Marketing Strategy (11th Edition)</a></h3>
         </div>
 
 </div>
@@ -305,6 +350,21 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
         
     <div class="wp-masonry-grid-post-details">
     <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/fundamentals-of-business-marketing-research/" rel="bookmark">Fundamentals of Business Marketing Research</a></h3>
+        </div>
+
+</div>
+</div>
+    
+        
+<div id="post-156570" class="wp-masonry-grid-post wp-masonry-4-col">
+<div class="wp-masonry-grid-post-inside">
+
+            <div class="wp-masonry-grid-post-thumbnail">
+        <a href="https://bookyage.com/marketing-planning-strategy-environment-and-context/" title="Permanent Link to Marketing Planning &#8211; Strategy, Environment and Context" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="652" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/12/e0d7f32d1a257fc6b7344b7fb2a7aeaf-480x652.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/12/e0d7f32d1a257fc6b7344b7fb2a7aeaf-480x652.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/12/e0d7f32d1a257fc6b7344b7fb2a7aeaf.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+                        </div>
+        
+    <div class="wp-masonry-grid-post-details">
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/marketing-planning-strategy-environment-and-context/" rel="bookmark">Marketing Planning &#8211; Strategy, Environment and Context</a></h3>
         </div>
 
 </div>
@@ -335,6 +395,21 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
         
     <div class="wp-masonry-grid-post-details">
     <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/marketing-the-populist-politician-the-demotic-democrat/" rel="bookmark">Marketing the Populist Politician &#8211; The Demotic Democrat</a></h3>
+        </div>
+
+</div>
+</div>
+    
+        
+<div id="post-43549" class="wp-masonry-grid-post wp-masonry-4-col">
+<div class="wp-masonry-grid-post-inside">
+
+            <div class="wp-masonry-grid-post-thumbnail">
+        <a href="https://bookyage.com/marketing-the-core-5th-edition/" title="Permanent Link to Marketing &#8211; The Core (5th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="637" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/11/a033d0eba5874cae5cac88121e0150fe-480x637.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/11/a033d0eba5874cae5cac88121e0150fe-480x637.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/11/a033d0eba5874cae5cac88121e0150fe.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+                        </div>
+        
+    <div class="wp-masonry-grid-post-details">
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/marketing-the-core-5th-edition/" rel="bookmark">Marketing &#8211; The Core (5th Edition)</a></h3>
         </div>
 
 </div>
@@ -416,15 +491,15 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
 </div>
     
         
-<div id="post-43549" class="wp-masonry-grid-post wp-masonry-4-col">
+<div id="post-64065" class="wp-masonry-grid-post wp-masonry-4-col">
 <div class="wp-masonry-grid-post-inside">
 
             <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/marketing-the-core-5th-edition/" title="Permanent Link to Marketing &#8211; The Core (5th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="637" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/11/a033d0eba5874cae5cac88121e0150fe-480x637.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/11/a033d0eba5874cae5cac88121e0150fe-480x637.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/11/a033d0eba5874cae5cac88121e0150fe.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+        <a href="https://bookyage.com/essentials-of-marketing-baines/" title="Permanent Link to Essentials of Marketing (Baines)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="624" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/03/b13e4104034caf7f9424f806f198a540-480x624.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/03/b13e4104034caf7f9424f806f198a540-480x624.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/03/b13e4104034caf7f9424f806f198a540.jpg 525w" sizes="(max-width: 480px) 100vw, 480px" /></a>
                         </div>
         
     <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/marketing-the-core-5th-edition/" rel="bookmark">Marketing &#8211; The Core (5th Edition)</a></h3>
+    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/essentials-of-marketing-baines/" rel="bookmark">Essentials of Marketing (Baines)</a></h3>
         </div>
 
 </div>
@@ -444,87 +519,12 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
 
 </div>
 </div>
-    
-        
-<div id="post-38391" class="wp-masonry-grid-post wp-masonry-4-col">
-<div class="wp-masonry-grid-post-inside">
-
-            <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/facebook-marketing-for-dummies-5th-edition/" title="Permanent Link to Facebook Marketing For Dummies (5th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="602" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/09/799c92b0d1b0daa0b00a474a2f4f6c0d-480x602.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/09/799c92b0d1b0daa0b00a474a2f4f6c0d-480x602.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2019/09/799c92b0d1b0daa0b00a474a2f4f6c0d.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
-                        </div>
-        
-    <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/facebook-marketing-for-dummies-5th-edition/" rel="bookmark">Facebook Marketing For Dummies (5th Edition)</a></h3>
-        </div>
-
-</div>
-</div>
-    
-        
-<div id="post-64065" class="wp-masonry-grid-post wp-masonry-4-col">
-<div class="wp-masonry-grid-post-inside">
-
-            <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/essentials-of-marketing-baines/" title="Permanent Link to Essentials of Marketing (Baines)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="624" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/03/b13e4104034caf7f9424f806f198a540-480x624.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/03/b13e4104034caf7f9424f806f198a540-480x624.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/03/b13e4104034caf7f9424f806f198a540.jpg 525w" sizes="(max-width: 480px) 100vw, 480px" /></a>
-                        </div>
-        
-    <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/essentials-of-marketing-baines/" rel="bookmark">Essentials of Marketing (Baines)</a></h3>
-        </div>
-
-</div>
-</div>
-    
-        
-<div id="post-3035" class="wp-masonry-grid-post wp-masonry-4-col">
-<div class="wp-masonry-grid-post-inside">
-
-            <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/essentials-of-marketing-research-hair-4th-edition/" title="Permanent Link to Essentials of Marketing Research (Hair, 4th Edition)" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="621" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2018/12/02f76fd1fb7da45d3e662ae9cd1e07aa-480x621.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2018/12/02f76fd1fb7da45d3e662ae9cd1e07aa-480x621.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2018/12/02f76fd1fb7da45d3e662ae9cd1e07aa.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
-                        </div>
-        
-    <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/essentials-of-marketing-research-hair-4th-edition/" rel="bookmark">Essentials of Marketing Research (Hair, 4th Edition)</a></h3>
-        </div>
-
-</div>
-</div>
-    
-        
-<div id="post-108285" class="wp-masonry-grid-post wp-masonry-4-col">
-<div class="wp-masonry-grid-post-inside">
-
-            <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/digital-marketing-for-dummies/" title="Permanent Link to Digital Marketing For Dummies" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="602" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/07/ce3564b5aa53603d9ed230aff8ad04bc-480x602.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/07/ce3564b5aa53603d9ed230aff8ad04bc-480x602.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/07/ce3564b5aa53603d9ed230aff8ad04bc.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
-                        </div>
-        
-    <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/digital-marketing-for-dummies/" rel="bookmark">Digital Marketing For Dummies</a></h3>
-        </div>
-
-</div>
-</div>
-    
-        
-<div id="post-105838" class="wp-masonry-grid-post wp-masonry-4-col">
-<div class="wp-masonry-grid-post-inside">
-
-            <div class="wp-masonry-grid-post-thumbnail">
-        <a href="https://bookyage.com/branded-male-marketing-to-men/" title="Permanent Link to Branded Male &#8211; Marketing to Men" class="wp-masonry-grid-post-thumbnail-link"><img width="480" height="724" src="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/06/518c9e7828b6e90ad5550fe835fb7fe2-480x724.jpg" class="wp-masonry-grid-post-thumbnail-img wp-post-image" alt="" loading="lazy" srcset="https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/06/518c9e7828b6e90ad5550fe835fb7fe2-480x724.jpg 480w, https://i.sevencdn.com/bookyage.com/wp-content/uploads/2020/06/518c9e7828b6e90ad5550fe835fb7fe2.jpg 600w" sizes="(max-width: 480px) 100vw, 480px" /></a>
-                        </div>
-        
-    <div class="wp-masonry-grid-post-details">
-    <h3 class="wp-masonry-grid-post-title"><a href="https://bookyage.com/branded-male-marketing-to-men/" rel="bookmark">Branded Male &#8211; Marketing to Men</a></h3>
-        </div>
-
-</div>
-</div>
         </div>
     <div class="clear"></div>
 
         <nav class="navigation posts-navigation clearfix" role="navigation">
         <div class='wp-pagenavi' role='navigation'>
-<span class='pages'>第 5 页，共 363 页</span><a class="first" href="https://bookyage.com/?s=Marketing">« 最新</a><a class="previouspostslink" rel="prev" href="https://bookyage.com/page/4/?s=Marketing">«</a><span class='extend'>...</span><a class="page smaller" title="第 3 页" href="https://bookyage.com/page/3/?s=Marketing">3</a><a class="page smaller" title="第 4 页" href="https://bookyage.com/page/4/?s=Marketing">4</a><span aria-current='page' class='current'>5</span><a class="page larger" title="第 6 页" href="https://bookyage.com/page/6/?s=Marketing">6</a><a class="page larger" title="第 7 页" href="https://bookyage.com/page/7/?s=Marketing">7</a><span class='extend'>...</span><a class="larger page" title="第 10 页" href="https://bookyage.com/page/10/?s=Marketing">10</a><a class="larger page" title="第 20 页" href="https://bookyage.com/page/20/?s=Marketing">20</a><a class="larger page" title="第 30 页" href="https://bookyage.com/page/30/?s=Marketing">30</a><a class="larger page" title="第 40 页" href="https://bookyage.com/page/40/?s=Marketing">40</a><a class="larger page" title="第 50 页" href="https://bookyage.com/page/50/?s=Marketing">50</a><span class='extend'>...</span><a class="nextpostslink" rel="next" href="https://bookyage.com/page/6/?s=Marketing">»</a><a class="last" href="https://bookyage.com/page/363/?s=Marketing">最旧 »</a>
+<span class='pages'>第 5 页，共 370 页</span><a class="first" href="https://bookyage.com/?s=Marketing">« 最新</a><a class="previouspostslink" rel="prev" href="https://bookyage.com/page/4/?s=Marketing">«</a><span class='extend'>...</span><a class="page smaller" title="第 3 页" href="https://bookyage.com/page/3/?s=Marketing">3</a><a class="page smaller" title="第 4 页" href="https://bookyage.com/page/4/?s=Marketing">4</a><span aria-current='page' class='current'>5</span><a class="page larger" title="第 6 页" href="https://bookyage.com/page/6/?s=Marketing">6</a><a class="page larger" title="第 7 页" href="https://bookyage.com/page/7/?s=Marketing">7</a><span class='extend'>...</span><a class="larger page" title="第 10 页" href="https://bookyage.com/page/10/?s=Marketing">10</a><a class="larger page" title="第 20 页" href="https://bookyage.com/page/20/?s=Marketing">20</a><a class="larger page" title="第 30 页" href="https://bookyage.com/page/30/?s=Marketing">30</a><a class="larger page" title="第 40 页" href="https://bookyage.com/page/40/?s=Marketing">40</a><a class="larger page" title="第 50 页" href="https://bookyage.com/page/50/?s=Marketing">50</a><span class='extend'>...</span><a class="nextpostslink" rel="next" href="https://bookyage.com/page/6/?s=Marketing">»</a><a class="last" href="https://bookyage.com/page/370/?s=Marketing">最旧 »</a>
 </div>    </nav><!-- .navigation -->
     
 
@@ -552,17 +552,17 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
 <div class="wp-masonry-bottom-wrapper-outer clearfix">
 <div class="wp-masonry-featured-posts-area wp-masonry-bottom-wrapper clearfix">
 
-<div id="tag_cloud-5" class="wp-masonry-main-widget widget widget_tag_cloud"><h2 class="wp-masonry-widget-title"><span>Hot Topics</span></h2><div class="tagcloud"><a href="https://bookyage.com/tag/c-cpp/" class="tag-cloud-link tag-link-149 tag-link-position-1" style="font-size: 9.9764705882353pt;" aria-label="C/C++ (167个项目)">C/C++</a>
-<a href="https://bookyage.com/tag/matlab/" class="tag-cloud-link tag-link-7 tag-link-position-2" style="font-size: 15.576470588235pt;" aria-label="MATLAB (367个项目)">MATLAB</a>
-<a href="https://bookyage.com/tag/python/" class="tag-cloud-link tag-link-45 tag-link-position-3" style="font-size: 13.435294117647pt;" aria-label="Python (277个项目)">Python</a>
-<a href="https://bookyage.com/tag/r/" class="tag-cloud-link tag-link-15 tag-link-position-4" style="font-size: 15.082352941176pt;" aria-label="R (345个项目)">R</a>
+<div id="tag_cloud-5" class="wp-masonry-main-widget widget widget_tag_cloud"><h2 class="wp-masonry-widget-title"><span>Hot Topics</span></h2><div class="tagcloud"><a href="https://bookyage.com/tag/c-cpp/" class="tag-cloud-link tag-link-149 tag-link-position-1" style="font-size: 10.141176470588pt;" aria-label="C/C++ (174个项目)">C/C++</a>
+<a href="https://bookyage.com/tag/matlab/" class="tag-cloud-link tag-link-7 tag-link-position-2" style="font-size: 15.741176470588pt;" aria-label="MATLAB (375个项目)">MATLAB</a>
+<a href="https://bookyage.com/tag/python/" class="tag-cloud-link tag-link-45 tag-link-position-3" style="font-size: 14.094117647059pt;" aria-label="Python (299个项目)">Python</a>
+<a href="https://bookyage.com/tag/r/" class="tag-cloud-link tag-link-15 tag-link-position-4" style="font-size: 15.247058823529pt;" aria-label="R (351个项目)">R</a>
 <a href="https://bookyage.com/tag/middle-east/" class="tag-cloud-link tag-link-120 tag-link-position-5" style="font-size: 8.3294117647059pt;" aria-label="中东 (134个项目)">中东</a>
 <a href="https://bookyage.com/tag/china/" class="tag-cloud-link tag-link-91 tag-link-position-6" style="font-size: 21.835294117647pt;" aria-label="中国 (892个项目)">中国</a>
-<a href="https://bookyage.com/tag/world-war-ii/" class="tag-cloud-link tag-link-338 tag-link-position-7" style="font-size: 18.047058823529pt;" aria-label="二战 (523个项目)">二战</a>
-<a href="https://bookyage.com/tag/islam/" class="tag-cloud-link tag-link-125 tag-link-position-8" style="font-size: 10.964705882353pt;" aria-label="伊斯兰 (195个项目)">伊斯兰</a>
-<a href="https://bookyage.com/tag/accounting/" class="tag-cloud-link tag-link-399 tag-link-position-9" style="font-size: 16.729411764706pt;" aria-label="会计 (432个项目)">会计</a>
+<a href="https://bookyage.com/tag/world-war-ii/" class="tag-cloud-link tag-link-338 tag-link-position-7" style="font-size: 18.376470588235pt;" aria-label="二战 (553个项目)">二战</a>
+<a href="https://bookyage.com/tag/islam/" class="tag-cloud-link tag-link-125 tag-link-position-8" style="font-size: 11.129411764706pt;" aria-label="伊斯兰 (199个项目)">伊斯兰</a>
+<a href="https://bookyage.com/tag/accounting/" class="tag-cloud-link tag-link-399 tag-link-position-9" style="font-size: 16.729411764706pt;" aria-label="会计 (438个项目)">会计</a>
 <a href="https://bookyage.com/tag/sensor/" class="tag-cloud-link tag-link-99 tag-link-position-10" style="font-size: 11.623529411765pt;" aria-label="传感器 (213个项目)">传感器</a>
-<a href="https://bookyage.com/tag/supply-chain/" class="tag-cloud-link tag-link-11 tag-link-position-11" style="font-size: 13.270588235294pt;" aria-label="供应链 (267个项目)">供应链</a>
+<a href="https://bookyage.com/tag/supply-chain/" class="tag-cloud-link tag-link-11 tag-link-position-11" style="font-size: 13.764705882353pt;" aria-label="供应链 (287个项目)">供应链</a>
 <a href="https://bookyage.com/tag/russia/" class="tag-cloud-link tag-link-142 tag-link-position-12" style="font-size: 10.964705882353pt;" aria-label="俄罗斯 (196个项目)">俄罗斯</a>
 <a href="https://bookyage.com/tag/pde/" class="tag-cloud-link tag-link-121 tag-link-position-13" style="font-size: 9.3176470588235pt;" aria-label="偏微分方程 (PDE) (154个项目)">偏微分方程 (PDE)</a>
 <a href="https://bookyage.com/tag/optics/" class="tag-cloud-link tag-link-167 tag-link-position-14" style="font-size: 8.9882352941176pt;" aria-label="光学 (146个项目)">光学</a>
@@ -573,28 +573,28 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
 <a href="https://bookyage.com/tag/geology/" class="tag-cloud-link tag-link-372 tag-link-position-19" style="font-size: 13.764705882353pt;" aria-label="地质学 (286个项目)">地质学</a>
 <a href="https://bookyage.com/tag/marketing/" class="tag-cloud-link tag-link-346 tag-link-position-20" style="font-size: 15.247058823529pt;" aria-label="市场营销 (352个项目)">市场营销</a>
 <a href="https://bookyage.com/tag/calculus/" class="tag-cloud-link tag-link-364 tag-link-position-21" style="font-size: 14.258823529412pt;" aria-label="微积分 (310个项目)">微积分</a>
-<a href="https://bookyage.com/tag/germany/" class="tag-cloud-link tag-link-144 tag-link-position-22" style="font-size: 11.623529411765pt;" aria-label="德国 (Germany) (215个项目)">德国 (Germany)</a>
+<a href="https://bookyage.com/tag/germany/" class="tag-cloud-link tag-link-144 tag-link-position-22" style="font-size: 11.623529411765pt;" aria-label="德国 (Germany) (214个项目)">德国 (Germany)</a>
 <a href="https://bookyage.com/tag/database/" class="tag-cloud-link tag-link-213 tag-link-position-23" style="font-size: 14.917647058824pt;" aria-label="数据库 (Database) (337个项目)">数据库 (Database)</a>
 <a href="https://bookyage.com/tag/culture/" class="tag-cloud-link tag-link-155 tag-link-position-24" style="font-size: 14.258823529412pt;" aria-label="文化 (Culture) (311个项目)">文化 (Culture)</a>
 <a href="https://bookyage.com/tag/tourism/" class="tag-cloud-link tag-link-114 tag-link-position-25" style="font-size: 8.4941176470588pt;" aria-label="旅游 (136个项目)">旅游</a>
 <a href="https://bookyage.com/tag/japan/" class="tag-cloud-link tag-link-141 tag-link-position-26" style="font-size: 10.141176470588pt;" aria-label="日本 (Japan) (174个项目)">日本 (Japan)</a>
-<a href="https://bookyage.com/tag/fashion/" class="tag-cloud-link tag-link-5 tag-link-position-27" style="font-size: 11.129411764706pt;" aria-label="时尚 (Fashion) (198个项目)">时尚 (Fashion)</a>
+<a href="https://bookyage.com/tag/fashion/" class="tag-cloud-link tag-link-5 tag-link-position-27" style="font-size: 11.129411764706pt;" aria-label="时尚 (Fashion) (200个项目)">时尚 (Fashion)</a>
 <a href="https://bookyage.com/tag/robot/" class="tag-cloud-link tag-link-143 tag-link-position-28" style="font-size: 10.964705882353pt;" aria-label="机器人 (Robot) (195个项目)">机器人 (Robot)</a>
-<a href="https://bookyage.com/tag/machine-learning/" class="tag-cloud-link tag-link-62 tag-link-position-29" style="font-size: 15.741176470588pt;" aria-label="机器学习 (375个项目)">机器学习</a>
-<a href="https://bookyage.com/tag/climate/" class="tag-cloud-link tag-link-373 tag-link-position-30" style="font-size: 17.552941176471pt;" aria-label="气候 (488个项目)">气候</a>
-<a href="https://bookyage.com/tag/game/" class="tag-cloud-link tag-link-78 tag-link-position-31" style="font-size: 13.6pt;" aria-label="游戏 (278个项目)">游戏</a>
+<a href="https://bookyage.com/tag/machine-learning/" class="tag-cloud-link tag-link-62 tag-link-position-29" style="font-size: 16.070588235294pt;" aria-label="机器学习 (399个项目)">机器学习</a>
+<a href="https://bookyage.com/tag/climate/" class="tag-cloud-link tag-link-373 tag-link-position-30" style="font-size: 17.717647058824pt;" aria-label="气候 (498个项目)">气候</a>
+<a href="https://bookyage.com/tag/game/" class="tag-cloud-link tag-link-78 tag-link-position-31" style="font-size: 14.094117647059pt;" aria-label="游戏 (299个项目)">游戏</a>
 <a href="https://bookyage.com/tag/laser/" class="tag-cloud-link tag-link-76 tag-link-position-32" style="font-size: 8.9882352941176pt;" aria-label="激光 (Laser) (148个项目)">激光 (Laser)</a>
 <a href="https://bookyage.com/tag/thermodynamics/" class="tag-cloud-link tag-link-396 tag-link-position-33" style="font-size: 8.8235294117647pt;" aria-label="热力学 (143个项目)">热力学</a>
-<a href="https://bookyage.com/tag/very-short-introductions/" class="tag-cloud-link tag-link-89 tag-link-position-34" style="font-size: 8.4941176470588pt;" aria-label="牛津通识读本 (Very Short Introductions) (137个项目)">牛津通识读本 (Very Short Introductions)</a>
+<a href="https://bookyage.com/tag/very-short-introductions/" class="tag-cloud-link tag-link-89 tag-link-position-34" style="font-size: 8.6588235294118pt;" aria-label="牛津通识读本 (Very Short Introductions) (141个项目)">牛津通识读本 (Very Short Introductions)</a>
 <a href="https://bookyage.com/tag/crime/" class="tag-cloud-link tag-link-176 tag-link-position-35" style="font-size: 9.3176470588235pt;" aria-label="犯罪 (Crime) (155个项目)">犯罪 (Crime)</a>
 <a href="https://bookyage.com/tag/social-media/" class="tag-cloud-link tag-link-83 tag-link-position-36" style="font-size: 11.294117647059pt;" aria-label="社交媒体 (204个项目)">社交媒体</a>
-<a href="https://bookyage.com/tag/nanotechnology/" class="tag-cloud-link tag-link-97 tag-link-position-37" style="font-size: 21.670588235294pt;" aria-label="纳米技术 (Nanotechnology) (869个项目)">纳米技术 (Nanotechnology)</a>
-<a href="https://bookyage.com/tag/textile/" class="tag-cloud-link tag-link-74 tag-link-position-38" style="font-size: 10.470588235294pt;" aria-label="纺织品 (Textile) (182个项目)">纺织品 (Textile)</a>
+<a href="https://bookyage.com/tag/nanotechnology/" class="tag-cloud-link tag-link-97 tag-link-position-37" style="font-size: 21.835294117647pt;" aria-label="纳米技术 (Nanotechnology) (882个项目)">纳米技术 (Nanotechnology)</a>
+<a href="https://bookyage.com/tag/textile/" class="tag-cloud-link tag-link-74 tag-link-position-38" style="font-size: 10.8pt;" aria-label="纺织品 (Textile) (190个项目)">纺织品 (Textile)</a>
 <a href="https://bookyage.com/tag/statistics/" class="tag-cloud-link tag-link-130 tag-link-position-39" style="font-size: 22pt;" aria-label="统计 (Statistics) (905个项目)">统计 (Statistics)</a>
 <a href="https://bookyage.com/tag/united-states/" class="tag-cloud-link tag-link-150 tag-link-position-40" style="font-size: 12.941176470588pt;" aria-label="美国 (United States) (257个项目)">美国 (United States)</a>
 <a href="https://bookyage.com/tag/quantum-mechanics/" class="tag-cloud-link tag-link-391 tag-link-position-41" style="font-size: 9.1529411764706pt;" aria-label="量子力学 (151个项目)">量子力学</a>
-<a href="https://bookyage.com/tag/radar/" class="tag-cloud-link tag-link-6 tag-link-position-42" style="font-size: 8pt;" aria-label="雷达 (127个项目)">雷达</a>
-<a href="https://bookyage.com/tag/music/" class="tag-cloud-link tag-link-339 tag-link-position-43" style="font-size: 14.258823529412pt;" aria-label="音乐 (305个项目)">音乐</a>
+<a href="https://bookyage.com/tag/radar/" class="tag-cloud-link tag-link-6 tag-link-position-42" style="font-size: 8pt;" aria-label="雷达 (128个项目)">雷达</a>
+<a href="https://bookyage.com/tag/music/" class="tag-cloud-link tag-link-339 tag-link-position-43" style="font-size: 14.258823529412pt;" aria-label="音乐 (309个项目)">音乐</a>
 <a href="https://bookyage.com/tag/project-management/" class="tag-cloud-link tag-link-360 tag-link-position-44" style="font-size: 11.458823529412pt;" aria-label="项目管理 (210个项目)">项目管理</a>
 <a href="https://bookyage.com/tag/risk-management/" class="tag-cloud-link tag-link-363 tag-link-position-45" style="font-size: 11.458823529412pt;" aria-label="风险管理 (210个项目)">风险管理</a></div>
 </div></div>
@@ -614,18 +614,18 @@ body.custom-background { background-image: url("https://bookyage.com/wp-content/
 
 <button class="wp-masonry-scroll-top" title="Scroll to Top"><span class="fa fa-arrow-up" aria-hidden="true"></span><span class="screen-reader-text">Scroll to Top</span></button>
 
-<script type='text/javascript' src='https://bookyage.com/wp-content/themes/wp-masonry/assets/js/jquery.fitvids.min.js' id='fitvids-js'></script>
-<script type='text/javascript' src='https://bookyage.com/wp-content/themes/wp-masonry/assets/js/navigation.js' id='wp-masonry-navigation-js'></script>
-<script type='text/javascript' src='https://bookyage.com/wp-content/themes/wp-masonry/assets/js/skip-link-focus-fix.js' id='wp-masonry-skip-link-focus-fix-js'></script>
-<script type='text/javascript' src='https://bookyage.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
-<script type='text/javascript' src='https://bookyage.com/wp-includes/js/masonry.min.js?ver=4.2.2' id='masonry-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/assets/js/jquery.fitvids.min.js' id='fitvids-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/assets/js/navigation.js' id='wp-masonry-navigation-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/assets/js/skip-link-focus-fix.js' id='wp-masonry-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-includes/js/masonry.min.js?ver=4.2.2' id='masonry-js'></script>
 <script type='text/javascript' id='wp-masonry-customjs-js-extra'>
 /* <![CDATA[ */
 var wp_masonry_ajax_object = {"ajaxurl":"https:\/\/bookyage.com\/wp-admin\/admin-ajax.php","primary_menu_active":"1","sticky_menu":"1","sticky_menu_mobile":"","sticky_sidebar":"","columnwidth":".wp-masonry-4-col-sizer","gutter":".wp-masonry-4-col-gutter"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://bookyage.com/wp-content/themes/wp-masonry/assets/js/custom.js' id='wp-masonry-customjs-js'></script>
-<script type='text/javascript' src='https://bookyage.com/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-content/themes/wp-masonry/assets/js/custom.js' id='wp-masonry-customjs-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/bookyage/bkg/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
 		<script type="text/javascript">
 			if(typeof jQuery != "undefined") {
 					jQuery('.siq-expsearch-icon').each(function(){
@@ -656,5 +656,5 @@ var wp_masonry_ajax_object = {"ajaxurl":"https:\/\/bookyage.com\/wp-admin\/admin
 		</script>
 		</body>
 </html>
-<!-- Dynamic page generated in 1.237 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2021-01-14 06:53:10 -->
+<!-- Dynamic page generated in 1.429 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2021-01-19 10:56:17 -->
