@@ -261,6 +261,8 @@ ai_insert_viewport_code = function (id) {
 
     ai_block_div.classList.remove (id);
 
+    ai_block_div.removeAttribute ('style');
+
     ai_process_elements ();
   }
 }
@@ -309,11 +311,13 @@ function ai_process_elements () {
       }
 
       if (typeof ai_process_lists == 'function') {
-        ai_process_lists (jQuery ("div.ai-list-data"));
+//        ai_process_lists (jQuery ("div.ai-list-data"));
+        ai_process_lists (jQuery (".ai-list-data"));
       }
 
       if (typeof ai_process_ip_addresses == 'function') {
-        ai_process_ip_addresses (jQuery ("div.ai-ip-data"));
+//        ai_process_ip_addresses (jQuery ("div.ai-ip-data"));
+        ai_process_ip_addresses (jQuery (".ai-ip-data"));
       }
 
       if (typeof ai_adb_process_blocks == 'function') {

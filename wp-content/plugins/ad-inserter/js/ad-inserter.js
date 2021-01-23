@@ -1,4 +1,4 @@
-var javascript_version = "2.6.16";
+var javascript_version = "2.6.20";
 var ignore_key = true;
 var start = 1;
 var end = 16;
@@ -1879,21 +1879,6 @@ jQuery(document).ready (function($) {
         var editor_disabled = $(this).is(":checked");
 
         switch_editor (block, editor_disabled);
-
-//        var editor = ace.edit ("editor-" + block);
-//        var textarea = $("#block-" + block);
-//        var ace_editor = $("#editor-" + block);
-
-//        if (editor_disabled) {
-//          textarea.val (editor.session.getValue());
-//          textarea.css ('display', 'block');
-//          ace_editor.css ('display', 'none');
-//        } else {
-//            editor.session.setValue (textarea.val ())
-//            editor.renderer.updateFull();
-//            ace_editor.css ('display', 'block');
-//            textarea.css ('display', 'none');
-//          }
       });
     }
   }
@@ -2204,8 +2189,10 @@ jQuery(document).ready (function($) {
 
     $('#simple-editor-h').checkboxButton ().click (function () {
         var tab_id = $("#ai-plugin-settings-tab-container .ui-tabs-panel:visible").attr("id");
-        if (active_tab == 0 && tab_id == 'tab-header') {
+        if (active_tab == 0 && tab_id == 'tab-header' && !$(this).hasClass ('clicked')) {
+          $(this).addClass ('clicked')
           $('#ai-tab-container .simple-editor-button').click();
+          $(this).removeClass ('clicked')
         }
     });
     // Switch to simple editor if the button was pressed before the tab was configured
@@ -2221,8 +2208,10 @@ jQuery(document).ready (function($) {
 
     $('#simple-editor-f').checkboxButton ().click (function () {
         var tab_id = $("#ai-plugin-settings-tab-container .ui-tabs-panel:visible").attr("id");
-        if (active_tab == 0 && tab_id == 'tab-footer') {
+        if (active_tab == 0 && tab_id == 'tab-footer' && !$(this).hasClass ('clicked')) {
+          $(this).addClass ('clicked')
           $('#ai-tab-container .simple-editor-button').click();
+          $(this).removeClass ('clicked')
         }
     });
     // Switch to simple editor if the button was pressed before the tab was configured
@@ -2263,8 +2252,10 @@ jQuery(document).ready (function($) {
 
     $('#simple-editor-a').checkboxButton ().click (function () {
         var tab_id = $("#ai-plugin-settings-tab-container .ui-tabs-panel:visible").attr("id");
-        if (active_tab == 0 && tab_id == 'tab-adblocking') {
+        if (active_tab == 0 && tab_id == 'tab-adblocking' && !$(this).hasClass ('clicked')) {
+          $(this).addClass ('clicked')
           $('#ai-tab-container .simple-editor-button').click();
+          $(this).removeClass ('clicked')
         }
     });
     // Switch to simple editor if the button was pressed before the tab was configured
@@ -3105,8 +3096,10 @@ jQuery(document).ready (function($) {
 
     $('#simple-editor-' + tab).checkboxButton ().click (function () {
       var block = $(this).attr('id').replace ("simple-editor-", "");
-      if (block == active_tab) {
+      if (block == active_tab && !$(this).hasClass ('clicked')) {
+        $(this).addClass ('clicked')
         $('#ai-tab-container .simple-editor-button').click();
+        $(this).removeClass ('clicked')
       }
     });
     // Switch to simple editor if the button was pressed before the tab was configured
@@ -3315,8 +3308,11 @@ jQuery(document).ready (function($) {
             switch (code_type) {
               case AI_CODE_BANNER:
                 $("#banner-image-url-" + block).val (code_data ['image']).trigger ('input');
+                $("#image-alt-text-" + block).val (code_data ['alt']);
+                $("#lazy-load-image-" + block).prop ('checked', code_data ['loading'] == 'lazy');
+
                 $("#banner-url-" + block).val (code_data ['link']).trigger ('input');
-                $("#open-new-tab-" + block).attr('checked', code_data ['target'] == '_blank');
+                $("#open-new-tab-" + block).prop ('checked', code_data ['target'] == '_blank');
                 break;
               case AI_CODE_ADSENSE:
                 $("#adsense-comment-" + block).val (code_data ['adsense-comment']);
@@ -3393,10 +3389,13 @@ jQuery(document).ready (function($) {
       switch (code_type) {
         case AI_CODE_BANNER:
           code_data ['image'] = $("#banner-image-url-" + block).val ();
-          code_data ['link']  = $("#banner-url-" + block).val ();
+          code_data ['alt'] = $("#image-alt-text-" + block).val ();
+          if ($("#lazy-load-image-" + block).is(":checked"))
+            code_data ['loading'] = 'lazy';
 
+          code_data ['link']  = $("#banner-url-" + block).val ();
           if ($("#open-new-tab-" + block).is(":checked"))
-          code_data ['target']  = '_blank';
+            code_data ['target'] = '_blank';
           break;
         case AI_CODE_ADSENSE:
           code_data ['block']                 = block;
@@ -4643,6 +4642,41 @@ jQuery(document).ready (function($) {
     $('div#tab-' + active_tab + ' input[name]:text').each (function (index){
       clipboard.find ('input[name]:text').eq (index).attr ('value', $(this).val ());
     });
+
+
+    // Lists
+    if ($('#list-settings-' + active_tab).is(':visible')) {
+      clipboard.find ('#list-settings-999').show ();
+    } else {
+        clipboard.find ('#list-settings-999').hide ();
+      }
+
+    if ($('#list-settings-' + active_tab).hasClass('ai-expanded')) {
+      clipboard.find ('#list-settings-999').addClass ('ai-expanded');
+    } else {
+        clipboard.find ('#list-settings-999').removeClass ('ai-expanded');
+      }
+
+    $('div#tab-' + active_tab + ' table.ai-lists tr').each (function (index){
+      if ($(this).is(':visible')) {
+        clipboard.find ('table.ai-lists tr').eq (index).show ();
+      } else {
+          clipboard.find ('table.ai-lists tr').eq (index).hide ();
+        }
+
+      if ($(this).find ('span.checkbox-list-button').hasClass ('dashicons-no')) {
+        clipboard.find ('table.ai-lists tr').eq (index).find ('span.checkbox-list-button').addClass ('dashicons-no').removeClass ('dashicons-yes');
+      } else {
+          clipboard.find ('table.ai-lists tr').eq (index).find ('span.checkbox-list-button').removeClass ('dashicons-no').addClass ('dashicons-yes');
+        }
+
+      if ($(this).hasClass ('list-items')) {
+        clipboard.find ('table.ai-lists tr').eq (index).addClass ('list-items');
+      } else {
+          clipboard.find ('table.ai-lists tr').eq (index).removeClass ('list-items');
+        }
+    });
+
 
     clipboard.find ('textarea.simple-editor').text (get_editor_text (active_tab));
 

@@ -3,7 +3,7 @@
 Contributors: kayastudio
 Donate link: http://dotkaya.org/a-propos/
 Tags: QR Code, qrcode, Widget, Shortcode, WooCommerce, QR Code Widget, QR Code Shortcode
-Tested up to: 5.5.1
+Tested up to: 5.6
 Stable tag: trunk
 Text Domain: kaya-qr-code-generator
 Domain Path: /languages
@@ -31,7 +31,8 @@ The QR Code generator library is included (based on qr.js written by Kang Seongh
 * Image display settings.
 * Color and background color customizable.
 * QR Code preview and download on Shortcode generator assistant.
-* The Shortcode generator assistant is available on pages, posts, WooCommerce products, and any public custom post types.
+* The Shortcode generator assistant is available on pages, posts, WooCommerce products, any public custom post types and on the plugin option page.
+* Compatible with WordPress MultiSite and WooCommerce.
 
 = Shortcodes =
 
@@ -84,6 +85,8 @@ If you want to display the qr-code in a page, a post, a WooCommerce product or i
 
 If the ‘Kaya QR Code Generator’ panel is not displayed, verify that ‘Kaya QR Code Generator’ is checked in the page / post / product options, in ‘Show more tools & options’ > ‘Options’ and ‘Advanced Panels’.
 
+The shortcode generator assistant is also available in the plugin options page.
+
 = How to use dynamic content? =
 
 No problem, Kaya QR Code Generator is easy to use with dynamic content (other shortcodes).
@@ -91,6 +94,18 @@ No problem, Kaya QR Code Generator is easy to use with dynamic content (other sh
 If you want to display dynamic content by a widget, the generator is used by default and you just need to check the checkbox "Use dynamic content (other shortcodes)".
 
 If you want to display dynamic content by a shortcode, use this following shortcode: `[kaya_qrcode_dynamic][example_shortcode][/kaya_qrcode_dynamic]`.
+
+= Why my modifications are not saved when I update my post? =
+
+The ‘Kaya QR Code Generator’ panel available in a page, a post, a WooCommerce product or in any public custom post type, is not used as custom fields for the post and don’t affect anything in the page content.
+
+The generated shortcode must be pasted in a “shortcode block” or directly in the page content.
+
+= Can I use the shortcodes in a PDF or a mail? =
+
+No, the QR Code shortcode must be present in a WordPress page, because it uses JavaScript functions to generate the image of the QR Code.
+
+But you can download the generated image on Shortcode generator assistant for example and use it as you want.
 
 = How to support the advancement of this plugin? =
 
@@ -113,12 +128,21 @@ The other way:
 
 == Changelog ==
 
+= 1.4.2 =
+* Fix: Uncaught error of class not found when executed outside administration like cron daemon.
+* Fix: Alignment problem with the link surrounding the image.
+* Adding: Title alignment feature.
+
+= 1.4.1 =
+* Adding: Plugin options page in dashboard with shortcode generator assistant.
+* Adding: Important notice in the post's shortcode generator assistant.
+
 = 1.4.0 =
 * Fix: Illegal string offset warning when dynamic shortcode content is empty.
 * Fix: Check for illegal characters in size and colors parameters.
 * Fix: Allow Hexadecimal ASCII codes in the content.
-* Add: Anchor link parameter added to the automatic current page url.
-* Add: QR Code image clickable link available with the automatic current page url.
+* Adding: Anchor link parameter added to the automatic current page url.
+* Adding: QR Code image clickable link available with the automatic current page url.
 
 = 1.3.2 =
 * Fix: htaccess options modified to prevent errors on some Apache configuration.
@@ -128,30 +152,30 @@ The other way:
 
 = 1.3.0 =
 * Fix: Undefined variable qrcodeCssInlineBasic Notice.
-* Add: Shortcode generator assistant available in any public custom post types.
-* Add: Management of dynamic content using other shortcodes, via new shortcode [kaya_qrcode_dynamic][/kaya_qrcode_dynamic].
+* Adding: Shortcode generator assistant available in any public custom post types.
+* Adding: Management of dynamic content using other shortcodes, via new shortcode [kaya_qrcode_dynamic][/kaya_qrcode_dynamic].
 
 = 1.2.0 =
-* Add: QR Code preview and download on Shortcode generator assistant.
-* Add: Shortcode generator assistant available in WooCommerce products page.
-* Add: Better management of admin scripts.
-* Add: Lighter loading of scripts (JS compressed).
+* Adding: QR Code preview and download on Shortcode generator assistant.
+* Adding: Shortcode generator assistant available in WooCommerce products page.
+* Adding: Better management of admin scripts.
+* Adding: Lighter loading of scripts (JS compressed).
 * Fix: Full width display bug of image.
 
 = 1.1.1 =
-* Add: Better management and lighter loading of scripts and resources.
+* Adding: Better management and lighter loading of scripts and resources.
 
 = 1.1.0 =
-* Add: Custom color and background color support.
-* Add: Allow custom image alternate text.
+* Adding: Custom color and background color support.
+* Adding: Allow custom image alternate text.
 
 = 1.0.2 =
-* Add: Allow "bitcoin:" as Bitcoin URI scheme.
-* Add: Better management for resized image.
+* Adding: Allow "bitcoin:" as Bitcoin URI scheme.
+* Adding: Better management for resized image.
 
 = 1.0.1 =
-* Add: noopener and noreferrer to links with target="_blank".
-* Add: French translation.
+* Adding: noopener and noreferrer to links with target="_blank".
+* Adding: French translation.
 
 = 1.0.0 =
 * KQCG is ready for wordpress.org.

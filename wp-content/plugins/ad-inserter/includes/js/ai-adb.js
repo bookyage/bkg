@@ -776,13 +776,16 @@ jQuery (window).on ('load', function () {
       }
     }
 
-    if (jQuery(b64d ("I2FpLWFkYi1tbg==")).length) {
-      if (!(typeof _mNDetails == 'object' && JSON.stringify (_mNDetails).length > 400)) {
-        if (!ai_adb_active || ai_debugging_active) ai_adb_detected (6);
-      } else {
-          ai_adb_undetected (6);
-        }
-    }
+    setTimeout (function() {
+      if (jQuery(b64d ("I2FpLWFkYi1tbg==")).length) {
+        if (!(typeof _mNDetails == 'object' && JSON.stringify (_mNDetails).length > 400)) {
+          if (!ai_adb_active || ai_debugging_active) ai_adb_detected (6);
+        } else {
+            ai_adb_undetected (6);
+          }
+      }
+    }, 80);
+
   }, 120);
 });
 

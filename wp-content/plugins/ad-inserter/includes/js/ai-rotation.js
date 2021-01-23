@@ -13,10 +13,16 @@ jQuery (function ($) {
 
     if (ai_debug) console.log ('');
 
-    if (ai_rotation_triggers.includes (rotation_block.selector)) {
-      ai_rotation_triggers.splice (ai_rotation_triggers.indexOf (rotation_block.selector), 1 );
+    if (typeof $(rotation_block).data ('info') != 'undefined') {
+      var block_info = JSON.parse (atob ($(rotation_block).data ('info')));
+      var rotation_id = block_info [0];
+      var rotaion_selector = "div.ai-rotate.ai-" + rotation_id;
 
-      if (ai_debug) console.log ('AI TIMED ROTATE TRIGGERS', ai_rotation_triggers);
+      if (ai_rotation_triggers.includes (rotaion_selector)) {
+        ai_rotation_triggers.splice (ai_rotation_triggers.indexOf (rotaion_selector), 1);
+
+        if (ai_debug) console.log ('AI TIMED ROTATE TRIGGERS', ai_rotation_triggers);
+      }
     }
 
     if (typeof rotation_block.length == 'number') {
@@ -198,7 +204,6 @@ jQuery (function ($) {
           var rotation_id = block_info [0];
 
           $(rotation_block).attr ('data-next', next_random_index);
-
           var rotaion_selector = "div.ai-rotate.ai-" + rotation_id;
 
           if (ai_rotation_triggers.includes (rotaion_selector)) {
@@ -207,8 +212,6 @@ jQuery (function ($) {
 
           if (trigger_rotation) {
             ai_rotation_triggers.push (rotaion_selector);
-
-            if (ai_debug) console.log ('AI TIMED ROTATE TRIGGERS', ai_rotation_triggers);
 
             setTimeout (function() {$(rotaion_selector).addClass ('ai-timer'); ai_process_rotation ($(rotaion_selector));}, rotation_time * 1000);
 //            setTimeout (function() {ai_process_rotation ($(rotation_block));}, rotation_time * 1000);
@@ -347,11 +350,13 @@ function ai_process_elements () {
       }
 
       if (typeof ai_process_lists == 'function') {
-        ai_process_lists (jQuery ("div.ai-list-data"));
+//        ai_process_lists (jQuery ("div.ai-list-data"));
+        ai_process_lists (jQuery (".ai-list-data"));
       }
 
       if (typeof ai_process_ip_addresses == 'function') {
-        ai_process_ip_addresses (jQuery ("div.ai-ip-data"));
+//        ai_process_ip_addresses (jQuery ("div.ai-ip-data"));
+        ai_process_ip_addresses (jQuery (".ai-ip-data"));
       }
 
       if (typeof ai_adb_process_blocks == 'function') {

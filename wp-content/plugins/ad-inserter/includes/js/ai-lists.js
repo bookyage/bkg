@@ -794,7 +794,11 @@ jQuery (function ($) {
       }, 50);
 
       if (typeof ai_load_blocks == 'function') {
+        // https://adinserter.pro/faq/gdpr-compliance-cookies-consent#manual-loading
         jQuery(document).on ("cmplzEnableScripts", ai_cmplzEnableScripts);
+
+        // Complianz Privacy Suite
+        jQuery(document).on ("cmplz_event_marketing", ai_cmplzEnableScripts);
 
         function ai_cmplzEnableScripts (consentData) {
           if (consentData.consentLevel === 'all'){
@@ -830,11 +834,13 @@ function ai_process_element (element) {
     }
 
     if (typeof ai_process_lists == 'function') {
-      ai_process_lists (jQuery ("div.ai-list-data", element));
+//      ai_process_lists (jQuery ("div.ai-list-data", element));
+      ai_process_lists (jQuery (".ai-list-data", element));
     }
 
     if (typeof ai_process_ip_addresses == 'function') {
-      ai_process_ip_addresses (jQuery ("div.ai-ip-data", element));
+//      ai_process_ip_addresses (jQuery ("div.ai-ip-data", element));
+      ai_process_ip_addresses (jQuery (".ai-ip-data", element));
     }
 
     if (typeof ai_adb_process_blocks == 'function') {

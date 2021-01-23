@@ -4,9 +4,9 @@ Contributors: adinserter, spacetime
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LHGZEMRTR7WB4
 Tags: ads, adsense, ad rotation, ad manager, amp, amazon, ad blocking detection, header code, banners, adverts, sticky fixed widgets, dfp
 Requires at least: 4.6
-Tested up to: 5.5
+Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 2.6.16
+Stable tag: 2.6.20
 License: GPLv3
 
 Manage Google AdSense, Media.net, Amazon banners, ads.txt, ad rotation, sticky widgets, AMP ads, DFP, tracking, AdSense header and footer code
@@ -335,6 +335,25 @@ If you are not happy to reveal this information and you have opted in, simply di
 
 == Changelog ==
 
+= 2.6.20 =
+- Added support for alt text and lazy loading for banner code generator
+- Few minor bug fixes, cosmetic changes and code improvements
+
+= 2.6.19 =
+- Improved code to reduce layout shift when using client-side device detection
+- Added translation for es_ES
+- Added translation for fr_FR
+- Added translation for it_IT
+- Improved compatibility with PHP 8
+- Few minor bug fixes, cosmetic changes and code improvements
+
+= 2.6.18 =
+- Added support to change Dynamic blocks setting for adinserter PHP function call
+- Few minor bug fixes, cosmetic changes and code improvements
+
+= 2.6.17 =
+- Fix for double client-side insertions when using geolocation (Pro only)
+
 = 2.6.16 =
 - Added support for ad blocking detection action every n pageviews
 - Added support to individually disable pageview or click tracking (Pro only)
@@ -470,6 +489,25 @@ If you are not happy to reveal this information and you have opted in, simply di
 For the changelog of earlier versions, please refer to the separate changelog.txt file.
 
 == Upgrade Notice ==
+
+= 2.6.20 =
+Added support for alt text and lazy loading for banner code generator;
+Few minor bug fixes, cosmetic changes and code improvements
+
+= 2.6.19 =
+Improved code to reduce layout shift when using client-side device detection;
+Added translation for es_ES;
+Added translation for fr_FR;
+Added translation for it_IT;
+Improved compatibility with PHP 8;
+Few minor bug fixes, cosmetic changes and code improvements
+
+= 2.6.18 =
+Added support to change Dynamic blocks setting for adinserter PHP function call;
+Few minor bug fixes, cosmetic changes and code improvements
+
+= 2.6.17 =
+Fix for double client-side insertions when using geolocation (Pro only)
 
 = 2.6.16 =
 Added support for ad blocking detection action every n pageviews;

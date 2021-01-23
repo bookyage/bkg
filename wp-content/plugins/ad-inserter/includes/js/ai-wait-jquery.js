@@ -36,7 +36,8 @@ function ai_wait_for_jquery () {
     head.appendChild (script);
   };
 
-  if (window.jQuery) {
+//  if (window.jQuery) {
+  if (window.jQuery && window.jQuery.fn) {
     if (ai_debug) console.log ('AI jQuery READY');
 
     ai_run_scripts ();
