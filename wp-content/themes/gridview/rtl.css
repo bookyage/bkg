@@ -1,0 +1,253 @@
+/*
+ * Theme Name: GridView RTL CSS
+ * Description: Adds support for languages written in a Right To Left (RTL) direction.
+ */
+
+body{direction:rtl;unicode-bidi:embed;}
+
+/* Typography & Elements
+-------------------------------------------------------------- */
+blockquote{text-align:right;}
+blockquote cite{text-align:right;}
+ul,ol{margin:0 2em 1.5em 0;}
+li > ul,li > ol{margin-left:0;margin-right:1em;}
+dd{margin:0 1.5em 1.5em;}
+th,td,caption{padding:4px 10px 4px 5px;}
+
+/* Forms
+-------------------------------------------------------------- */
+textarea{padding-right:3px;}
+
+/* Layout
+-------------------------------------------------------------- */
+.gridview-content-wrapper{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+
+/* Header
+-------------------------------------------------------------- */
+.gridview-header-inside-container{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+.gridview-logo{float:right;text-align:right;}
+.gridview-header-menu{float:right;}
+.gridview-header-social{float:right;text-align:left;}
+.gridview-header-banner-active .gridview-logo{float:right;text-align:right;}
+.gridview-header-banner-active .gridview-header-banner{float:right;text-align:left;}
+.gridview-header-banner-active .gridview-header-menu{float:none;}
+.gridview-header-banner-active .gridview-header-social{float:none;text-align:right;}
+.gridview-header-full-active .gridview-logo{float:none;text-align:right;}
+.gridview-header-full-active .gridview-header-menu{float:none;}
+.gridview-header-full-active .gridview-header-social{float:none;text-align:right;}
+
+@media only screen and (max-width: 1112px) {
+.gridview-logo{float:none;text-align:right;}
+.gridview-header-menu{float:none;}
+.gridview-header-social{float:none;text-align:right;}
+.gridview-header-banner-active .gridview-logo{float:none;text-align:right;}
+.gridview-header-banner-active .gridview-header-banner{float:none;text-align:right;}
+.gridview-header-banner-active .gridview-header-menu{float:none;}
+.gridview-header-banner-active .gridview-header-social{float:none;text-align:right;}
+}
+
+.gridview-header-image-info{text-align:right;}
+
+/* Primary Menu
+-------------------------------------------------------------- */
+.gridview-primary-nav-menu li{text-align:right;float:right;}
+.gridview-primary-nav-menu .sub-menu,.gridview-primary-nav-menu .children{left:0;right:-9999px;}
+.gridview-primary-nav-menu .sub-menu .sub-menu,.gridview-primary-nav-menu .children .children{margin:-47px 189px 0 0}
+.gridview-primary-nav-menu li:hover > .sub-menu,.gridview-primary-nav-menu li:hover > .children,.gridview-primary-nav-menu li.gridview-focus > .sub-menu,.gridview-primary-nav-menu li.gridview-focus > .children{right:auto;}
+.gridview-primary-responsive-menu-icon{margin:0;text-align:right;}
+.gridview-primary-responsive-menu-icon::before{margin:0 0 0 6px;}
+.gridview-primary-nav-menu{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+@media only screen and (min-width: 1113px) {
+.gridview-header-full-active .gridview-primary-nav-menu{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:end;-webkit-justify-content:flex-end;-moz-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;}
+.gridview-primary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.gridview-primary-nav-menu .sub-menu li.menu-item-has-children > a:after,.gridview-primary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.gridview-primary-mobile-menu-inactive.gridview-header-full-active .gridview-primary-nav-menu{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:end;-webkit-justify-content:flex-end;-moz-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;}
+.gridview-primary-mobile-menu-inactive .gridview-primary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.gridview-primary-mobile-menu-inactive .gridview-primary-nav-menu .sub-menu li.menu-item-has-children > a:after,.gridview-primary-mobile-menu-inactive .gridview-primary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.gridview-primary-mobile-menu-active .gridview-nav-primary{float:none;}
+.gridview-primary-mobile-menu-active .gridview-primary-nav-menu li{float:none;}
+.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu .menu-item-has-children > a,.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu .page_item_has_children > a{margin-right:0;margin-left:50px;}
+.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu > .menu-item-has-children:before,.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu > .page_item_has_children:before{float:left;right:auto;left:0;text-align:left;}
+.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu > li > .sub-menu,.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu > li > .children{margin:0;padding:0;left:0;right:-9999px;}
+.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu > li.gridview-focus > .sub-menu,.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu > li.gridview-focus > .children{right:auto;}
+.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu > li > .sub-menu.gridview-submenu-toggle,.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu > li > .children.gridview-submenu-toggle{right:auto;}
+.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu .sub-menu,.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu .children{right:auto;margin:0;}
+.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu .sub-menu .sub-menu,.gridview-primary-mobile-menu-active .gridview-primary-nav-menu.gridview-primary-responsive-menu .children .children{margin:0;padding-left:0;padding-right:15px;}
+}
+
+/* Secondary Menu
+-------------------------------------------------------------- */
+.gridview-secondary-nav-menu li{text-align:right;float:right;}
+.gridview-secondary-nav-menu .sub-menu,.gridview-secondary-nav-menu .children{left:0;right:-9999px;}
+.gridview-secondary-nav-menu .sub-menu .sub-menu,.gridview-secondary-nav-menu .children .children{margin:-39px 189px 0 0}
+.gridview-secondary-nav-menu li:hover > .sub-menu,.gridview-secondary-nav-menu li:hover > .children,.gridview-secondary-nav-menu li.gridview-focus > .sub-menu,.gridview-secondary-nav-menu li.gridview-focus > .children{right:auto;}
+.gridview-secondary-responsive-menu-icon{text-align:right;margin:0;}
+.gridview-secondary-responsive-menu-icon::before{margin:0 0 0 6px;}
+@media only screen and (min-width: 1113px) {
+.gridview-secondary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.gridview-secondary-nav-menu .sub-menu li.menu-item-has-children > a:after,.gridview-secondary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.gridview-secondary-mobile-menu-inactive .gridview-secondary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.gridview-secondary-mobile-menu-inactive .gridview-secondary-nav-menu .sub-menu li.menu-item-has-children > a:after,.gridview-secondary-mobile-menu-inactive .gridview-secondary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu li{float:none}
+.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu .menu-item-has-children > a,.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu .page_item_has_children > a{margin-right:0;margin-left:50px;}
+.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu > .menu-item-has-children:before,.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu > .page_item_has_children:before{float:left;right:auto;left:0;text-align:left;}
+.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu > li > .sub-menu,.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu > li > .children{margin:0;padding:0;left:0;right:-9999px;}
+.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu > li.gridview-focus > .sub-menu,.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu > li.gridview-focus > .children{right:auto;}
+.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu > li > .sub-menu.gridview-submenu-toggle,.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu > li > .children.gridview-submenu-toggle{right:auto;}
+.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu .sub-menu,.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu .children{right:auto;margin:0;}
+.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu .sub-menu .sub-menu,.gridview-secondary-mobile-menu-active .gridview-secondary-nav-menu.gridview-secondary-responsive-menu .children .children{margin:0;padding-left:0;padding-right:15px;}
+}
+
+/* Posts & Pages
+-------------------------------------------------------------- */
+.gridview-posts-wrapper .gridview-posts-heading{text-align:right;}
+.gridview-posts-wrapper .gridview-posts-heading .gridview-posts-heading-inside{padding:0 0 0 10px;}
+.gridview-posts-wrapper .gridview-posts-heading i{right:auto;left:5px;}
+
+.gridview-page-header{text-align:right;}
+.gridview-page-header-inside{padding:0 0 0 10px;}
+.taxonomy-description{text-align:right;}
+
+.gridview-entry-meta-single{text-align:right;}
+.gridview-entry-meta-single-cats{margin:0 0 0 10px;}
+.gridview-entry-meta-single-author{margin:0 0 0 10px;}
+.gridview-entry-meta-single-date{margin:0 0 0 10px;}
+.gridview-entry-meta-single-comments{margin:0 0 0 10px;}
+.gridview-entry-meta-single-likes{margin:0 0 0 10px;}
+.gridview-entry-meta-single-views{margin:0 0 0 6px;}
+
+.entry-title{text-align:right;}
+
+.entry-content table tr th{border-right:none;border-left:1px solid #444;}
+.entry-content table tr th:last-child{border-left:none;}
+.entry-content table tr td{border-right:none;border-left:1px solid #eee;}
+.entry-content table tr td:last-child{border-left:none;}
+
+.gridview-entry-footer{text-align:right;}
+.gridview-entry-footer .gridview-tags-links{text-align:right;}
+
+/* =Page Links
+----------------------------------------------- */
+.page-links > span,.page-links > a{float:right;border-right:1px solid #dadada !important;}
+.page-links span.page-links-title{border-right:0 !important;}
+
+/* Posts/Post Navigation
+-------------------------------------------------------------- */
+.navigation.posts-navigation .nav-links .nav-previous a:after{margin-left:0;margin-right:6px;}
+.navigation.posts-navigation .nav-links .nav-next a:before{margin-right:0;margin-left:6px;}
+.nav-previous{float:left;text-align:left;}
+.nav-next{float:right;text-align:right;}
+.navigation.post-navigation .nav-previous{float:left;text-align:left;}
+.navigation.post-navigation .nav-next{float:right;text-align:right;}
+@media only screen and (max-width: 599px) {
+.navigation.post-navigation .nav-previous{float:none;text-align:center;}
+.navigation.post-navigation .nav-next{float:none;text-align:center;}
+}
+.navigation.pagination{text-align:right;}
+.gridview-post-navigation-content{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+
+/* WP-PageNavi
+-------------------------------------------------------------- */
+.wp-pagenavi{text-align:right;}
+
+/* Likes and Views
+-------------------------------------------------------------- */
+.themesdna-likes-count:before{margin-right:0;margin-left:3px;}
+.themesdna-views:before{margin-right:0;margin-left:3px;}
+
+/* Tag Cloud Widget
+-------------------------------------------------------------- */
+.widget_tag_cloud a{margin:0 0 5px 5px;}
+
+/* Calendar
+-------------------------------------------------------------- */
+#wp-calendar caption{text-align:left;padding:10px 0 0 10px;}
+#wp-calendar tbody td{text-align:right;}
+#wp-calendar tfoot #next{text-align:left;}
+#wp-calendar thead th{padding-bottom:10px;text-align:right;}
+
+/* Alignments
+-------------------------------------------------------------- */
+.alignleft{float:right;margin:0 0 10px 10px;}
+.alignright{float:left;margin:0 10px 10px 0;}
+
+/* Captions
+-------------------------------------------------------------- */
+.wp-caption{text-align:right;}
+
+/* Comments
+-------------------------------------------------------------- */
+.comment-respond #cancel-comment-reply-link{margin-left:0;margin-right:1em;}
+.comment-form label{padding-right:0;padding-left:1em;}
+.comments-area > ol{margin:0;}
+.comment .edit-link,.pingback .edit-link{float:left;}
+.comment .comment-meta .comment-author .avatar{float:right;margin-right:0;margin-left:1em;}
+#respond input[type=text],textarea{padding:3px 3px 3px 0;margin:5px 0 3px 1px;}
+#respond input[type=text]:focus,textarea:focus{margin:5px 0 3px 1px;}
+.comment-form-cookies-consent label{padding-left:0;padding-right:10px;}
+
+/* Sidebar
+-------------------------------------------------------------- */
+.gridview-sidebar-widget-areas .widget .gridview-widget-title{text-align:right;}
+.gridview-sidebar-widget-areas .widget .gridview-widget-title .gridview-widget-title-inside{padding:0 0 0 10px;}
+.gridview-sidebar-widget-areas .widget .gridview-widget-title i{right:auto;left:5px;}
+.gridview-sidebar-widget-areas .widget ol{padding:0 1.2em 0 0;}
+.gridview-sidebar-widget-areas .widget li{padding:6px 0px 6px 0px;}
+.gridview-sidebar-widget-areas .widget li li{padding:6px 10px 6px 0;}
+
+/* Footer
+-------------------------------------------------------------- */
+#gridview-footer-blocks .widget ol{padding:0 1.2em 0 0;}
+#gridview-footer-blocks .widget li{padding:6px 0 6px 0;}
+#gridview-footer-blocks .widget li li{padding:8px 10px 8px 0;}
+
+.gridview-footer-block-cols{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+
+/* Copyright
+-------------------------------------------------------------- */
+#gridview-copyright-area .gridview-copyright-area-inside p.gridview-copyright{text-align:right;}
+#gridview-copyright-area .gridview-copyright-area-inside p.gridview-credit{text-align:right;}
+
+/* Search Widget
+-------------------------------------------------------------- */
+.gridview-search-overlay{left:auto;right:0;}
+.gridview-search-overlay .gridview-search-closebtn{right:auto;left:45px;}
+.gridview-search-overlay input[type=text]{float:right;}
+
+input.gridview-search-submit{right:auto;left:0;}
+
+/* Featured Posts Area Widgets
+-------------------------------------------------------------- */
+.gridview-featured-posts-area .widget .gridview-widget-title{text-align:right;}
+.gridview-featured-posts-area .widget .gridview-widget-title .gridview-widget-title-inside{padding:0 0 0 10px;}
+.gridview-featured-posts-area .widget .gridview-widget-title i{right:auto;left:5px;}
+.gridview-featured-posts-area .widget ol{padding:0 1.2em 0 0;}
+.gridview-featured-posts-area .widget li{padding:6px 0px 6px 0px;}
+.gridview-featured-posts-area .widget li li{padding:6px 10px 6px 0;}
+
+/* Grid
+-------------------------------------------------------------- */
+.gridview-grid-post-categories{text-align:right;}
+.gridview-grid-post .gridview-grid-post-title{text-align:right;}
+.gridview-grid-post-snippet{text-align:right;}
+.gridview-grid-post-footer{text-align:right;}
+
+.gridview-grid-post-header{text-align:right;}
+.gridview-grid-post-header-meta{margin-right:0;margin-left:6px;}
+.gridview-grid-post-header-meta:last-child{margin-left:0;float:left;}
+
+/* Author Bio Box
+-------------------------------------------------------------- */
+.gridview-author-bio-gravatar{float:right;padding:0 0 5px 12px;}
+
+/* Scroll to Top Button
+-------------------------------------------------------------- */
+.gridview-scroll-top{right:auto;left:20px;}
