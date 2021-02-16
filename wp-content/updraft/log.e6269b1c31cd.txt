@@ -1,0 +1,247 @@
+0000.000 (0) Opened log file at time: Tue, 16 Feb 2021 03:02:13 +0000 on https://bookyage.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6.1 PHP: 7.3.10 (fpm-fcgi, Linux ubuntu 4.15.0-29-generic #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 x86_64) MySQL: 5.6.45-log WPLANG: zh_CN Server: nginx/1.16.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54.7M | 14.5M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 17361.7 MB
+0000.019 (0) Tasks: Backup files: 0 (schedule: monthly) Backup DB: 1 (schedule: monthly)
+0000.035 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.074 (0) Set semaphore last lock (d) time to 2021-02-16 03:02:13
+0000.083 (0) Semaphore lock (d) complete
+0000.110 (0) Backup run: resumption=0, nonce=e6269b1c31cd, file_nonce=e6269b1c31cd begun at=1613444533 (0s ago), job type=backup
+0000.129 (0) Scheduling a resumption (1) after 300 seconds (1613444833) in case this run gets aborted
+0000.159 (0) This backup run is not intended for files - skipping
+0000.161 (0) Beginning creation of database dump (WordPress DB)
+0000.171 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.198 (0) Table wp_options: Total expected rows (approximate): 967
+0000.336 (0) Table wp_options: Rows added in this batch (next record: 283236): 974 (uncompressed bytes in this segment=1574319) in 0.13 seconds
+0000.385 (0) Table wp_options: finishing file(s) (2, 247.6 KB)
+0000.422 (0) Table wp_users: Total expected rows (approximate): 0
+0000.441 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1109) in 0.00 seconds
+0000.481 (0) Table wp_users: finishing file(s) (2, 0.5 KB)
+0000.501 (0) Table wp_usermeta: Total expected rows (approximate): 45
+0000.520 (0) Table wp_usermeta: Rows added in this batch (next record: 97): 45 (uncompressed bytes in this segment=27074) in 0.01 seconds
+0000.541 (0) Table wp_usermeta: finishing file(s) (2, 5.8 KB)
+0000.561 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 1288
+0000.667 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 110128): 1373 (uncompressed bytes in this segment=923478) in 0.10 seconds
+0000.679 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 219.4 KB)
+0000.700 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0000.710 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0000.736 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.752 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 4
+0000.762 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=748) in 0.00 seconds
+0000.788 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.804 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 1487
+0000.835 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 1580): 1487 (uncompressed bytes in this segment=122139) in 0.02 seconds
+0000.847 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 9.3 KB)
+0000.867 (0) Table wp_commentmeta: Total expected rows (approximate): 188
+0000.879 (0) Table wp_commentmeta: Rows added in this batch (next record: 1122): 188 (uncompressed bytes in this segment=16904) in 0.00 seconds
+0000.906 (0) Table wp_commentmeta: finishing file(s) (2, 2.9 KB)
+0000.928 (0) Table wp_comments: Total expected rows (approximate): 56
+0000.939 (0) Table wp_comments: Rows added in this batch (next record: 283): 56 (uncompressed bytes in this segment=19346) in 0.00 seconds
+0000.965 (0) Table wp_comments: finishing file(s) (2, 5.6 KB)
+0000.984 (0) Table wp_links: Total expected rows (approximate): 0
+0000.994 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=997) in 0.00 seconds
+0001.018 (0) Table wp_links: finishing file(s) (2, 0.4 KB)
+0001.036 (0) Table wp_postmeta: Total expected rows (approximate): 697154
+0001.052 (0) [Warning] 表 wp_postmeta 有非常多的行 （ 697154）-我们希望您的 web 托管公司为您提供足够的资源来将该表转储到备份中 如果没有, 您将需要从此表中删除数据, 或与您的托管公司联系以请求更多资源。
+0004.133 (0) Table wp_postmeta: Rows added in this batch (next record: 774740): 100000 (uncompressed bytes in this segment=68079735) in 3.07 seconds
+0006.615 (0) Table wp_postmeta: Rows added in this batch (next record: 2026335): 100000 (uncompressed bytes in this segment=53103738) in 2.47 seconds
+0008.166 (0) Table wp_postmeta: Rows added in this batch (next record: 2272009): 100000 (uncompressed bytes in this segment=13886046) in 1.54 seconds
+0013.568 (0) Table wp_postmeta: Rows added in this batch (next record: 2619720): 100000 (uncompressed bytes in this segment=95391682) in 5.39 seconds
+0016.671 (0) Table wp_postmeta: Rows added in this batch (next record: 2719720): 100000 (uncompressed bytes in this segment=52691960) in 3.09 seconds
+0017.347 (0) Table wp_postmeta: Rows added in this batch (next record: 2786025): 66305 (uncompressed bytes in this segment=5035333) in 0.66 seconds
+0017.372 (0) Table wp_postmeta: finishing file(s) (7, 40782.5 KB)
+0017.392 (0) Table wp_posts: Total expected rows (approximate): 128133
+0021.555 (0) Table wp_posts: Rows added in this batch (next record: 119711): 100000 (uncompressed bytes in this segment=43187996) in 4.16 seconds
+0023.124 (0) Table wp_posts: Rows added in this batch (next record: 174892): 37116 (uncompressed bytes in this segment=15814611) in 1.56 seconds
+0023.136 (0) Table wp_posts: finishing file(s) (3, 9088.8 KB)
+0023.155 (0) Table wp_term_relationships: Total expected rows (approximate): 104798
+0023.860 (0) Table wp_term_relationships: Rows added in this batch (next record: 200000): 106489 (uncompressed bytes in this segment=1828710) in 0.70 seconds
+0023.890 (0) Table wp_term_relationships: finishing file(s) (2, 301.4 KB)
+0023.908 (0) Table wp_term_taxonomy: Total expected rows (approximate): 241
+0023.927 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 470): 257 (uncompressed bytes in this segment=43288) in 0.01 seconds
+0023.956 (0) Table wp_term_taxonomy: finishing file(s) (2, 11.6 KB)
+0023.975 (0) Table wp_termmeta: Total expected rows (approximate): 48
+0023.988 (0) Table wp_termmeta: Rows added in this batch (next record: 48): 48 (uncompressed bytes in this segment=3216) in 0.00 seconds
+0024.010 (0) Table wp_termmeta: finishing file(s) (2, 0.7 KB)
+0024.032 (0) Table wp_terms: Total expected rows (approximate): 241
+0024.043 (0) Table wp_terms: Rows added in this batch (next record: 470): 257 (uncompressed bytes in this segment=14285) in 0.00 seconds
+0024.067 (0) Table wp_terms: finishing file(s) (2, 6.2 KB)
+0024.085 (0) Table wp_evernote_sync_record: Total expected rows (approximate): 35108
+0024.812 (0) Table wp_evernote_sync_record: Rows added in this batch (next record: 58591): 38850 (uncompressed bytes in this segment=6354596) in 0.72 seconds
+0024.834 (0) Table wp_evernote_sync_record: finishing file(s) (2, 2246.8 KB)
+0024.853 (0) Table wp_rank_math_404_logs: Total expected rows (approximate): 0
+0024.862 (0) Table wp_rank_math_404_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=901) in 0.00 seconds
+0024.887 (0) Table wp_rank_math_404_logs: finishing file(s) (2, 0.4 KB)
+0024.907 (0) Table wp_rank_math_analytics_objects: Total expected rows (approximate): 100
+0024.924 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 100): 100 (uncompressed bytes in this segment=28008) in 0.01 seconds
+0024.938 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 7 KB)
+0024.951 (0) Table wp_rank_math_internal_links: Total expected rows (approximate): 0
+0024.961 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=755) in 0.00 seconds
+0024.992 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.4 KB)
+0025.012 (0) Table wp_rank_math_internal_meta: Total expected rows (approximate): 0
+0025.021 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=653) in 0.00 seconds
+0025.065 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.3 KB)
+0025.083 (0) Table wp_rank_math_redirections: Total expected rows (approximate): 0
+0025.094 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1007) in 0.00 seconds
+0025.119 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0025.138 (0) Table wp_rank_math_redirections_cache: Total expected rows (approximate): 0
+0025.147 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=875) in 0.00 seconds
+0025.174 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0025.193 (0) Table wp_tm_taskmeta: Total expected rows (approximate): 0
+0025.205 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=565) in 0.00 seconds
+0025.229 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.3 KB)
+0025.250 (0) Table wp_tm_tasks: Total expected rows (approximate): 0
+0025.260 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.00 seconds
+0025.285 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0025.305 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (approximate): 19
+0025.315 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=2218) in 0.00 seconds
+0025.341 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.6 KB)
+0025.350 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_options.table.tmpr283237.gz (1/26): adding to final database dump
+0025.420 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_options.table.gz (2/26): adding to final database dump
+0025.422 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_users.table.tmpr2.gz (3/26): adding to final database dump
+0025.430 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_users.table.gz (4/26): adding to final database dump
+0025.432 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_usermeta.table.tmpr98.gz (5/26): adding to final database dump
+0025.441 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_usermeta.table.gz (6/26): adding to final database dump
+0025.449 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_actionscheduler_actions.table.tmpr110129.gz (7/26): adding to final database dump
+0025.500 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_actionscheduler_actions.table.gz (8/26): adding to final database dump
+0025.502 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/26): adding to final database dump
+0025.512 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_actionscheduler_claims.table.gz (10/26): adding to final database dump
+0025.514 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/26): adding to final database dump
+0025.522 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_actionscheduler_groups.table.gz (12/26): adding to final database dump
+0025.523 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_actionscheduler_logs.table.tmpr1581.gz (13/26): adding to final database dump
+0025.537 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_actionscheduler_logs.table.gz (14/26): adding to final database dump
+0025.541 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_commentmeta.table.tmpr1123.gz (15/26): adding to final database dump
+0025.551 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_commentmeta.table.gz (16/26): adding to final database dump
+0025.560 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_comments.table.tmpr284.gz (17/26): adding to final database dump
+0025.572 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_comments.table.gz (18/26): adding to final database dump
+0025.579 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_links.table.tmpr0.gz (19/26): adding to final database dump
+0025.588 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_links.table.gz (20/26): adding to final database dump
+0025.596 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_postmeta.table.tmpr774740.gz (21/26): adding to final database dump
+0027.718 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_postmeta.table.tmpr2026335.gz (22/26): adding to final database dump
+0029.295 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_postmeta.table.tmpr2272009.gz (23/26): adding to final database dump
+0029.943 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_postmeta.table.tmpr2619720.gz (24/26): adding to final database dump
+0033.548 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_postmeta.table.tmpr2719720.gz (25/26): adding to final database dump
+0035.413 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_postmeta.table.tmpr2786026.gz (26/26): adding to final database dump
+0035.605 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_postmeta.table.gz (27/26): adding to final database dump
+0035.607 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_posts.table.tmpr119711.gz (28/26): adding to final database dump
+0037.181 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_posts.table.tmpr174893.gz (29/26): adding to final database dump
+0037.776 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_posts.table.gz (30/26): adding to final database dump
+0037.778 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_term_relationships.table.tmpr200001.gz (31/26): adding to final database dump
+0037.901 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_term_relationships.table.gz (32/26): adding to final database dump
+0037.904 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_term_taxonomy.table.tmpr471.gz (33/26): adding to final database dump
+0037.916 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_term_taxonomy.table.gz (34/26): adding to final database dump
+0037.922 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_termmeta.table.tmpr49.gz (35/26): adding to final database dump
+0037.931 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_termmeta.table.gz (36/26): adding to final database dump
+0037.940 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_terms.table.tmpr471.gz (37/26): adding to final database dump
+0037.954 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_terms.table.gz (38/26): adding to final database dump
+0037.962 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_evernote_sync_record.table.tmpr58592.gz (39/26): adding to final database dump
+0038.432 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_evernote_sync_record.table.gz (40/26): adding to final database dump
+0038.434 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_404_logs.table.tmpr0.gz (41/26): adding to final database dump
+0038.442 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_404_logs.table.gz (42/26): adding to final database dump
+0038.444 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_analytics_objects.table.tmpr101.gz (43/26): adding to final database dump
+0038.455 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_analytics_objects.table.gz (44/26): adding to final database dump
+0038.462 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_internal_links.table.tmpr0.gz (45/26): adding to final database dump
+0038.471 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_internal_links.table.gz (46/26): adding to final database dump
+0038.479 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_internal_meta.table.tmpr0.gz (47/26): adding to final database dump
+0038.488 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_internal_meta.table.gz (48/26): adding to final database dump
+0038.497 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_redirections.table.tmpr0.gz (49/26): adding to final database dump
+0038.506 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_redirections.table.gz (50/26): adding to final database dump
+0038.515 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_redirections_cache.table.tmpr0.gz (51/26): adding to final database dump
+0038.524 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_rank_math_redirections_cache.table.gz (52/26): adding to final database dump
+0038.532 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_tm_taskmeta.table.tmpr0.gz (53/26): adding to final database dump
+0038.541 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_tm_taskmeta.table.gz (54/26): adding to final database dump
+0038.549 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_tm_tasks.table.tmpr0.gz (55/26): adding to final database dump
+0038.558 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_tm_tasks.table.gz (56/26): adding to final database dump
+0038.569 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr20.gz (57/26): adding to final database dump
+0038.578 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db-table-wp_wpmailsmtp_tasks_meta.table.gz (58/26): adding to final database dump
+0038.591 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db.gz: finished writing out complete database file (52920 KB)
+0039.484 (0) Total database tables backed up: 26 (backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db.gz, size: 54206219, sha1: c6611a7a45ebb94fa3aa83ed5bf93e0ab6c47ee7, sha256: 058faf86a9a93eab258d1d0e5af2483312ceb1283c1a237ca2865369d8a02fdd)
+0039.522 (0) backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+0039.530 (0) Saving backup history. Total backup size: 51.7 MB
+0039.549 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0039.576 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0039.585 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-0ba53ff7c4c82390ae532aaa3369581e)
+0041.207 (0) Google Drive: quota usage: used=8540.7 MB, total=15360 MB, available=6819.3 MB
+0041.209 (0) Google Drive: backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db.gz: Attempting to upload to Google Drive (into folder id: 1700sX8GPjaVqQ8F4FxEmZUsYLqdlf7b0)
+0042.501 (0) Googledrive chunked upload: 1.9 % uploaded (1048576)
+0043.210 (0) Googledrive chunked upload: 3.9 % uploaded (2097152)
+0043.926 (0) Googledrive chunked upload: 5.8 % uploaded (3145728)
+0044.604 (0) Googledrive chunked upload: 7.7 % uploaded (4194304)
+0045.313 (0) Googledrive chunked upload: 9.7 % uploaded (5242880)
+0046.029 (0) Googledrive chunked upload: 11.6 % uploaded (6291456)
+0046.761 (0) Googledrive chunked upload: 13.5 % uploaded (7340032)
+0047.399 (0) Googledrive chunked upload: 15.5 % uploaded (8388608)
+0048.088 (0) Googledrive chunked upload: 17.4 % uploaded (9437184)
+0048.779 (0) Googledrive chunked upload: 19.3 % uploaded (10485760)
+0049.570 (0) Googledrive chunked upload: 21.3 % uploaded (11534336)
+0050.289 (0) Googledrive chunked upload: 23.2 % uploaded (12582912)
+0050.932 (0) Googledrive chunked upload: 25.1 % uploaded (13631488)
+0051.655 (0) Googledrive chunked upload: 27.1 % uploaded (14680064)
+0052.331 (0) Googledrive chunked upload: 29 % uploaded (15728640)
+0053.013 (0) Googledrive chunked upload: 31 % uploaded (16777216)
+0053.697 (0) Googledrive chunked upload: 32.9 % uploaded (17825792)
+0054.361 (0) Googledrive chunked upload: 34.8 % uploaded (18874368)
+0055.083 (0) Googledrive chunked upload: 36.8 % uploaded (19922944)
+0055.814 (0) Googledrive chunked upload: 38.7 % uploaded (20971520)
+0056.525 (0) Googledrive chunked upload: 40.6 % uploaded (22020096)
+0057.227 (0) Googledrive chunked upload: 42.6 % uploaded (23068672)
+0057.892 (0) Googledrive chunked upload: 44.5 % uploaded (24117248)
+0058.570 (0) Googledrive chunked upload: 46.4 % uploaded (25165824)
+0059.693 (0) Googledrive chunked upload: 48.4 % uploaded (26214400)
+0060.406 (0) Googledrive chunked upload: 50.3 % uploaded (27262976)
+0061.094 (0) Googledrive chunked upload: 52.2 % uploaded (28311552)
+0061.830 (0) Googledrive chunked upload: 54.2 % uploaded (29360128)
+0062.562 (0) Googledrive chunked upload: 56.1 % uploaded (30408704)
+0063.194 (0) Googledrive chunked upload: 58 % uploaded (31457280)
+0063.900 (0) Googledrive chunked upload: 60 % uploaded (32505856)
+0064.601 (0) Googledrive chunked upload: 61.9 % uploaded (33554432)
+0065.298 (0) Googledrive chunked upload: 63.8 % uploaded (34603008)
+0065.997 (0) Googledrive chunked upload: 65.8 % uploaded (35651584)
+0066.676 (0) Googledrive chunked upload: 67.7 % uploaded (36700160)
+0067.414 (0) Googledrive chunked upload: 69.6 % uploaded (37748736)
+0068.109 (0) Googledrive chunked upload: 71.6 % uploaded (38797312)
+0068.811 (0) Googledrive chunked upload: 73.5 % uploaded (39845888)
+0069.602 (0) Googledrive chunked upload: 75.4 % uploaded (40894464)
+0070.296 (0) Googledrive chunked upload: 77.4 % uploaded (41943040)
+0070.989 (0) Googledrive chunked upload: 79.3 % uploaded (42991616)
+0071.687 (0) Googledrive chunked upload: 81.2 % uploaded (44040192)
+0072.363 (0) Googledrive chunked upload: 83.2 % uploaded (45088768)
+0073.063 (0) Googledrive chunked upload: 85.1 % uploaded (46137344)
+0073.726 (0) Googledrive chunked upload: 87 % uploaded (47185920)
+0074.438 (0) Googledrive chunked upload: 89 % uploaded (48234496)
+0075.124 (0) Googledrive chunked upload: 90.9 % uploaded (49283072)
+0075.801 (0) Googledrive chunked upload: 92.9 % uploaded (50331648)
+0076.455 (0) Googledrive chunked upload: 94.8 % uploaded (51380224)
+0077.175 (0) Googledrive chunked upload: 96.7 % uploaded (52428800)
+0077.925 (0) Googledrive chunked upload: 98.7 % uploaded (53477376)
+0079.583 (0) Googledrive chunked upload: 100 % uploaded (53477376)
+0079.610 (0) Google Drive: OK: Archive backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db.gz uploaded in 38.39 seconds
+0079.618 (0) Recording as successfully uploaded: backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db.gz
+0079.647 (0) Deleting local file: backup_2021-02-16-1102_Bookyage_e6269b1c31cd-db.gz: OK
+0079.661 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0079.670 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1600084920, 1597492920, 1594900920, 1585702860, 1571311920, 1568777880, 1567843560, 1567843380, 1565580540, 1565452080
+0079.672 (0) Number of backup sets in history: 13; groups (db): 1
+0079.681 (0) Examining (for databases) backup set with group_id=0, nonce=e6269b1c31cd, datestamp=1613444533 (Feb 16 2021 03:02:13)
+0079.689 (0) This backup set is the backup set just made, so will not be deleted.
+0079.689 (0) Examining (for databases) backup set with group_id=0, nonce=28d89de50377, datestamp=1613444132 (Feb 16 2021 02:55:32)
+0079.689 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0079.698 (0) Examining (for databases) backup set with group_id=0, nonce=f67f4320e698, datestamp=1612926235 (Feb 10 2021 03:03:55)
+0079.698 (0) 1612926235: db: this set includes a database (backup_2021-02-10-1103_Bookyage_f67f4320e698-db.gz); db count is now 2
+0079.698 (0) 1612926235: db: over retain limit (2); will delete this database
+0079.698 (0) Delete file: backup_2021-02-10-1103_Bookyage_f67f4320e698-db.gz, service=googledrive
+0082.051 (0) Google Drive: backup_2021-02-10-1103_Bookyage_f67f4320e698-db.gz: Deletion successful
+0082.061 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0082.063 (0) Number of backup sets in history: 13; groups (files): 1
+0082.071 (0) Examining (for files) backup set with nonce=e6269b1c31cd, datestamp=1613444533 (Feb 16 2021 03:02:13)
+0082.071 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0082.073 (0) Examining (for files) backup set with nonce=28d89de50377, datestamp=1613444132 (Feb 16 2021 02:55:32)
+0082.073 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0082.081 (0) Examining (for files) backup set with nonce=f67f4320e698, datestamp=1612926235 (Feb 10 2021 03:03:55)
+0082.081 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0082.082 (0) Retain: saving new backup history (sets now: 13) and finishing retain operation
+0082.103 (0) Resume backup (e6269b1c31cd, 0): finish run
+0082.114 (0) Decremented the semaphore (d) by 1
+0082.123 (0) Semaphore (d) unlocked
+0082.137 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0082.166 (0) The backup apparently succeeded and is now complete
+0082.175 (0) No email will/can be sent - the user has not configured an email address.
+0082.184 (0) 备份显然是成功的，现在已经完成了。

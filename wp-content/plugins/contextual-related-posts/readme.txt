@@ -2,7 +2,7 @@
 Tags: related posts, related, related articles, contextual related posts, similar posts, related posts widget
 Contributors: webberzone, Ajay
 Donate link: https://ajaydsouza.com/donate/
-Stable tag: 3.0.3
+Stable tag: 3.0.5
 Requires at least: 5.0
 Tested up to: 5.6
 Requires PHP: 5.6
@@ -174,9 +174,23 @@ You can insert the related posts anywhere in your post using the `[crp]` shortco
 
 == Changelog ==
 
-= 3.0.3 =
+= 3.0.5 =
 
 Release post: [https://webberzone.com/blog/contextual-related-posts-v3-0-0/](https://webberzone.com/blog/contextual-related-posts-v3-0-0/)
+
+* Bug fix:
+    * Certain posts would trigger a "SHOW TABLES LIKE" error
+    * Forced `.crp_related figure` margin to 0
+
+= 3.0.4 =
+
+* Enhancement/Modifications:
+    * `include_cat_ids` and `exclude_categories` will also accept custom taxonomy `term_taxonomy_id`s
+    * Thumbnail's `img` tag is wrapped in `<figure>`
+    * Remove extra checking for `exclude_categories` in `get_crp`
+    * Optimise deleting of cache entries when updating a post - post saving should be significantly faster
+
+= 3.0.3 =
 
 * Enhancement/Modifications:
     * Grid style minimum width is now decided by the width of the thumbnail and long words are wrapped
@@ -227,5 +241,5 @@ For the changelog of earlier versions, please refer to the separate changelog.tx
 
 == Upgrade Notice ==
 
-= 3.0.3 =
-Major release. Filters deprecated. Resave settings on upgrade. Please read the release post on https://webberzone.com
+= 3.0.5 =
+Bug fixes. Please read the release post on https://webberzone.com

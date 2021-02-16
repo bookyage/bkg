@@ -6,7 +6,7 @@ Tags: ads, adsense, ad rotation, ad manager, amp, amazon, ad blocking detection,
 Requires at least: 4.6
 Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 2.6.20
+Stable tag: 2.6.21
 License: GPLv3
 
 Manage Google AdSense, Media.net, Amazon banners, ads.txt, ad rotation, sticky widgets, AMP ads, DFP, tracking, AdSense header and footer code
@@ -15,7 +15,7 @@ Manage Google AdSense, Media.net, Amazon banners, ads.txt, ad rotation, sticky w
 
 Ad management plugin with many advanced advertising features to insert ad codes at optimal positions.
 
-Supports all kinds of ads including **Google AdSense**, **Google Ad Manager** (DFP - DoubleClick for publishers), contextual **Amazon Native Shopping Ads**, **Media.net** and **rotating banners.**
+Supports all kinds of ads including **Google AdSense**, **Google Ad Manager** (DFP - DoubleClick for publishers), contextual **Amazon Native Shopping Ads**, **Media.net** , **Infolinks** and **rotating banners.**
 
 This plugin is more than AdSense plugin or plugin for ads. It provides many advanced options to insert opt-in forms, header scripts, Javascript, CSS, HTML, PHP, analytics, tracking or advert code anywhere on the page.
 
@@ -335,6 +335,10 @@ If you are not happy to reveal this information and you have opted in, simply di
 
 == Changelog ==
 
+= 2.6.21 =
+- Improved compatibility with PHP 8
+- Few minor bug fixes, cosmetic changes and code improvements
+
 = 2.6.20 =
 - Added support for alt text and lazy loading for banner code generator
 - Few minor bug fixes, cosmetic changes and code improvements
@@ -489,6 +493,10 @@ If you are not happy to reveal this information and you have opted in, simply di
 For the changelog of earlier versions, please refer to the separate changelog.txt file.
 
 == Upgrade Notice ==
+
+= 2.6.21 =
+Improved compatibility with PHP 8;
+Few minor bug fixes, cosmetic changes and code improvements
 
 = 2.6.20 =
 Added support for alt text and lazy loading for banner code generator;

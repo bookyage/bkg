@@ -507,12 +507,30 @@ jQuery (function ($) {
                         if (typeof ai_tcData_retrying == 'undefined') {
                           ai_tcData_retrying  = true;
 
-                          if (ai_debug) console.log ("AI LISTS COOKIE tcf-v2: __tcfapi not found, waiting...");
+                          if (ai_debug) console.log ("AI LISTS COOKIE tcf-v2: __tcfapi not found 1, waiting...");
 
                           setTimeout (function() {
                             if (ai_debug) console.log ("AI LISTS COOKIE tcf-v2: checking again for __tcfapi");
-                            check_and_call__tcfapi (true);
-                          }, 200);
+
+                            if (typeof __tcfapi == 'function') {
+                              check_and_call__tcfapi (false);
+                            } else {
+                                if (ai_debug) console.log ("AI LISTS COOKIE tcf-v2: __tcfapi not found 2, waiting...");
+
+                                setTimeout (function() {
+                                  if (typeof __tcfapi == 'function') {
+                                    check_and_call__tcfapi (false);
+                                  } else {
+                                      if (ai_debug) console.log ("AI LISTS COOKIE tcf-v2: __tcfapi not found 3, waiting...");
+
+                                      setTimeout (function() {
+                                        check_and_call__tcfapi (true);
+                                      }, 3000);
+                                    }
+
+                                }, 1000);
+                              }
+                          }, 600);
                         } else {
                             if (ai_debug) console.log ("AI LISTS COOKIE tcf-v2: __tcfapi still waiting...");
                           }
@@ -791,21 +809,21 @@ jQuery (function ($) {
 
       setTimeout (function() {
         ai_install_tcf_callback_useractioncomplete ();
-      }, 50);
 
-      if (typeof ai_load_blocks == 'function') {
-        // https://adinserter.pro/faq/gdpr-compliance-cookies-consent#manual-loading
-        jQuery(document).on ("cmplzEnableScripts", ai_cmplzEnableScripts);
+        if (typeof ai_load_blocks == 'function') {
+          // https://adinserter.pro/faq/gdpr-compliance-cookies-consent#manual-loading
+          jQuery(document).on ("cmplzEnableScripts", ai_cmplzEnableScripts);
 
-        // Complianz Privacy Suite
-        jQuery(document).on ("cmplz_event_marketing", ai_cmplzEnableScripts);
+          // Complianz Privacy Suite
+          jQuery(document).on ("cmplz_event_marketing", ai_cmplzEnableScripts);
 
-        function ai_cmplzEnableScripts (consentData) {
-          if (consentData.consentLevel === 'all'){
-            ai_load_blocks ();
+          function ai_cmplzEnableScripts (consentData) {
+            if (consentData.consentLevel === 'all'){
+              ai_load_blocks ();
+            }
           }
         }
-      }
+      }, 50);
 
       jQuery("#ai-iab-tcf-bar").click (function () {
         AiCookies.remove ('euconsent-v2', {path: "/", domain: '.' + window.location.hostname});
